@@ -1,0 +1,699 @@
+17:55:34 **** Rebuild of configuration Debug for project PAW ****
+Info: Internal Builder is used for build
+arm-atollic-eabi-gcc -c ..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32F429xx -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\STM32F4xx_HAL_Driver\Inc -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\CMSIS\Device\ST\STM32F4xx\Include -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\CMSIS\Include -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Debug -I../Inc -O0 -ffunction-sections -g3 -fstack-usage -Wall -fmessage-length=0 -o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.o 
+arm-atollic-eabi-gcc -c ..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32F429xx -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\STM32F4xx_HAL_Driver\Inc -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\CMSIS\Device\ST\STM32F4xx\Include -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\CMSIS\Include -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Debug -I../Inc -O0 -ffunction-sections -g3 -fstack-usage -Wall -fmessage-length=0 -o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.o 
+arm-atollic-eabi-g++ -c ..\Src\paw.cpp -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -std=gnu++11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32F429xx -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\STM32F4xx_HAL_Driver\Inc -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\CMSIS\Device\ST\STM32F4xx\Include -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\CMSIS\Include -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Debug -O0 -ffunction-sections -fno-rtti -fno-exceptions -g3 -fstack-usage -Wall -fno-threadsafe-statics -o Src\paw.o 
+arm-atollic-eabi-gcc -c ..\Src\stm32f429i_discovery_eeprom.c -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32F429xx -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\STM32F4xx_HAL_Driver\Inc -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\CMSIS\Device\ST\STM32F4xx\Include -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\CMSIS\Include -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Debug -I../Inc -O0 -ffunction-sections -g3 -fstack-usage -Wall -fmessage-length=0 -o Src\stm32f429i_discovery_eeprom.o 
+arm-atollic-eabi-gcc -c ..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.c -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32F429xx -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\STM32F4xx_HAL_Driver\Inc -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\CMSIS\Device\ST\STM32F4xx\Include -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\CMSIS\Include -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Debug -I../Inc -O0 -ffunction-sections -g3 -fstack-usage -Wall -fmessage-length=0 -o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.o 
+arm-atollic-eabi-gcc -c ..\Src\stm32f429i_discovery_sdram.c -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32F429xx -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\STM32F4xx_HAL_Driver\Inc -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\CMSIS\Device\ST\STM32F4xx\Include -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\CMSIS\Include -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Debug -I../Inc -O0 -ffunction-sections -g3 -fstack-usage -Wall -fmessage-length=0 -o Src\stm32f429i_discovery_sdram.o 
+arm-atollic-eabi-gcc -c ..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32F429xx -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\STM32F4xx_HAL_Driver\Inc -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\CMSIS\Device\ST\STM32F4xx\Include -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\CMSIS\Include -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Debug -I../Inc -O0 -ffunction-sections -g3 -fstack-usage -Wall -fmessage-length=0 -o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.o 
+arm-atollic-eabi-gcc -c ..\Src\system_stm32f4xx.c -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32F429xx -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\STM32F4xx_HAL_Driver\Inc -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\CMSIS\Device\ST\STM32F4xx\Include -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\CMSIS\Include -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Debug -I../Inc -O0 -ffunction-sections -g3 -fstack-usage -Wall -fmessage-length=0 -o Src\system_stm32f4xx.o 
+arm-atollic-eabi-gcc -c ..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_ltdc.c -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32F429xx -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\STM32F4xx_HAL_Driver\Inc -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\CMSIS\Device\ST\STM32F4xx\Include -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\CMSIS\Include -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Debug -I../Inc -O0 -ffunction-sections -g3 -fstack-usage -Wall -fmessage-length=0 -o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_ltdc.o 
+arm-atollic-eabi-gcc -c ..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32F429xx -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\STM32F4xx_HAL_Driver\Inc -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\CMSIS\Device\ST\STM32F4xx\Include -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\CMSIS\Include -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Debug -I../Inc -O0 -ffunction-sections -g3 -fstack-usage -Wall -fmessage-length=0 -o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.o 
+arm-atollic-eabi-gcc -c -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\STM32F4xx_HAL_Driver\Inc -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\CMSIS\Device\ST\STM32F4xx\Include -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\CMSIS\Include -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Debug -g -Wa,--warn -x assembler-with-cpp -o startup\startup_stm32f429xx.o ..\startup\startup_stm32f429xx.s 
+arm-atollic-eabi-gcc -c ..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.c -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32F429xx -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\STM32F4xx_HAL_Driver\Inc -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\CMSIS\Device\ST\STM32F4xx\Include -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\CMSIS\Include -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Debug -I../Inc -O0 -ffunction-sections -g3 -fstack-usage -Wall -fmessage-length=0 -o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.o 
+arm-atollic-eabi-gcc -c ..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32F429xx -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\STM32F4xx_HAL_Driver\Inc -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\CMSIS\Device\ST\STM32F4xx\Include -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\CMSIS\Include -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Debug -I../Inc -O0 -ffunction-sections -g3 -fstack-usage -Wall -fmessage-length=0 -o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.o 
+arm-atollic-eabi-gcc -c ..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_sdram.c -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32F429xx -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\STM32F4xx_HAL_Driver\Inc -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\CMSIS\Device\ST\STM32F4xx\Include -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\CMSIS\Include -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Debug -I../Inc -O0 -ffunction-sections -g3 -fstack-usage -Wall -fmessage-length=0 -o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_sdram.o 
+arm-atollic-eabi-gcc -c ..\Src\stm32f429i_discovery_lcd.c -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32F429xx -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\STM32F4xx_HAL_Driver\Inc -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\CMSIS\Device\ST\STM32F4xx\Include -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\CMSIS\Include -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Debug -I../Inc -O0 -ffunction-sections -g3 -fstack-usage -Wall -fmessage-length=0 -o Src\stm32f429i_discovery_lcd.o 
+arm-atollic-eabi-gcc -c ..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma2d.c -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32F429xx -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\STM32F4xx_HAL_Driver\Inc -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\CMSIS\Device\ST\STM32F4xx\Include -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\CMSIS\Include -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Debug -I../Inc -O0 -ffunction-sections -g3 -fstack-usage -Wall -fmessage-length=0 -o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma2d.o 
+arm-atollic-eabi-gcc -c ..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32F429xx -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\STM32F4xx_HAL_Driver\Inc -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\CMSIS\Device\ST\STM32F4xx\Include -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\CMSIS\Include -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Debug -I../Inc -O0 -ffunction-sections -g3 -fstack-usage -Wall -fmessage-length=0 -o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.o 
+arm-atollic-eabi-gcc -c ..\Src\stm32f4xx_it.c -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32F429xx -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\STM32F4xx_HAL_Driver\Inc -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\CMSIS\Device\ST\STM32F4xx\Include -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\CMSIS\Include -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Debug -I../Inc -O0 -ffunction-sections -g3 -fstack-usage -Wall -fmessage-length=0 -o Src\stm32f4xx_it.o 
+arm-atollic-eabi-gcc -c ..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32F429xx -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\STM32F4xx_HAL_Driver\Inc -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\CMSIS\Device\ST\STM32F4xx\Include -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\CMSIS\Include -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Debug -I../Inc -O0 -ffunction-sections -g3 -fstack-usage -Wall -fmessage-length=0 -o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.o 
+arm-atollic-eabi-gcc -c ..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32F429xx -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\STM32F4xx_HAL_Driver\Inc -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\CMSIS\Device\ST\STM32F4xx\Include -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\CMSIS\Include -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Debug -I../Inc -O0 -ffunction-sections -g3 -fstack-usage -Wall -fmessage-length=0 -o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.o 
+arm-atollic-eabi-gcc -c ..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32F429xx -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\STM32F4xx_HAL_Driver\Inc -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\CMSIS\Device\ST\STM32F4xx\Include -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\CMSIS\Include -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Debug -I../Inc -O0 -ffunction-sections -g3 -fstack-usage -Wall -fmessage-length=0 -o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.o 
+arm-atollic-eabi-g++ -c ..\Src\main.cpp -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -std=gnu++11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32F429xx -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\STM32F4xx_HAL_Driver\Inc -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\CMSIS\Device\ST\STM32F4xx\Include -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\CMSIS\Include -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Debug -O0 -ffunction-sections -fno-rtti -fno-exceptions -g3 -fstack-usage -Wall -fno-threadsafe-statics -o Src\main.o 
+arm-atollic-eabi-gcc -c ..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_fmc.c -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32F429xx -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\STM32F4xx_HAL_Driver\Inc -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\CMSIS\Device\ST\STM32F4xx\Include -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\CMSIS\Include -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Debug -I../Inc -O0 -ffunction-sections -g3 -fstack-usage -Wall -fmessage-length=0 -o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_fmc.o 
+arm-atollic-eabi-gcc -c ..\Src\ili9341.c -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32F429xx -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\STM32F4xx_HAL_Driver\Inc -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\CMSIS\Device\ST\STM32F4xx\Include -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\CMSIS\Include -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Debug -I../Inc -O0 -ffunction-sections -g3 -fstack-usage -Wall -fmessage-length=0 -o Src\ili9341.o 
+arm-atollic-eabi-gcc -c ..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_ltdc_ex.c -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32F429xx -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\STM32F4xx_HAL_Driver\Inc -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\CMSIS\Device\ST\STM32F4xx\Include -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\CMSIS\Include -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Debug -I../Inc -O0 -ffunction-sections -g3 -fstack-usage -Wall -fmessage-length=0 -o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_ltdc_ex.o 
+arm-atollic-eabi-gcc -c ..\Src\stm32f429i_discovery.c -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32F429xx -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\STM32F4xx_HAL_Driver\Inc -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\CMSIS\Device\ST\STM32F4xx\Include -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\CMSIS\Include -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Debug -I../Inc -O0 -ffunction-sections -g3 -fstack-usage -Wall -fmessage-length=0 -o Src\stm32f429i_discovery.o 
+arm-atollic-eabi-gcc -c ..\Src\stm32f4xx_hal_msp.c -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32F429xx -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\STM32F4xx_HAL_Driver\Inc -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\CMSIS\Device\ST\STM32F4xx\Include -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\CMSIS\Include -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Debug -I../Inc -O0 -ffunction-sections -g3 -fstack-usage -Wall -fmessage-length=0 -o Src\stm32f4xx_hal_msp.o 
+arm-atollic-eabi-gcc -c ..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.c -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32F429xx -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\STM32F4xx_HAL_Driver\Inc -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\CMSIS\Device\ST\STM32F4xx\Include -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\CMSIS\Include -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Debug -I../Inc -O0 -ffunction-sections -g3 -fstack-usage -Wall -fmessage-length=0 -o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.o 
+arm-atollic-eabi-gcc -c ..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32F429xx -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\STM32F4xx_HAL_Driver\Inc -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\CMSIS\Device\ST\STM32F4xx\Include -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\CMSIS\Include -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Debug -I../Inc -O0 -ffunction-sections -g3 -fstack-usage -Wall -fmessage-length=0 -o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.o 
+In file included from ..\Src\main.cpp:44:0:
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Matrix.h: In static member function 'static PAW_Matrix PAW_Matrix::relative_error(const PAW_Matrix&, const PAW_Matrix&, float)':
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Matrix.h:428:3: warning: this 'for' clause does not guard... [-Wmisleading-indentation]
+   for(auto const i : index_tab)
+   ^~~
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Matrix.h:433:4: note: ...this statement, but the latter is misleadingly indented as if it is guarded by the 'for'
+arm-atollic-eabi-gcc -c ..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32F429xx -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\STM32F4xx_HAL_Driver\Inc -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\CMSIS\Device\ST\STM32F4xx\Include -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\CMSIS\Include -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Debug -I../Inc -O0 -ffunction-sections -g3 -fstack-usage -Wall -fmessage-length=0 -o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.o 
+    return result;
+    ^~~~~~
+In file included from ..\Src\main.cpp:46:0:
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h: In constructor 'PAW_Primitive::PAW_Primitive(bool, PAW_Color)':
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h:41:7: warning: 'PAW_Primitive::is_filled' will be initialized after [-Wreorder]
+  bool is_filled;
+       ^~~~~~~~~
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h:40:12: warning:   'PAW_Color PAW_Primitive::col' [-Wreorder]
+  PAW_Color col;
+            ^~~
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h:37:2: warning:   when initialized here [-Wreorder]
+  PAW_Primitive(bool filled, PAW_Color acol): is_filled(filled), col(acol) {};
+  ^~~~~~~~~~~~~
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h: In constructor 'PAW_Point::PAW_Point(PAW_Vector, PAW_Color)':
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h:50:13: warning: 'PAW_Point::pos' will be initialized after [-Wreorder]
+  PAW_Vector pos;
+             ^~~
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h:48:81: warning:   base 'PAW_Primitive' [-Wreorder]
+  PAW_Point(PAW_Vector apos, PAW_Color acol):pos(apos), PAW_Primitive(false, acol){};
+                                                                                 ^
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h:48:2: warning:   when initialized here [-Wreorder]
+  PAW_Point(PAW_Vector apos, PAW_Color acol):pos(apos), PAW_Primitive(false, acol){};
+  ^~~~~~~~~
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h: In member function 'virtual uint32_t PAW_Point::send_to_ram(uint16_t, uint16_t)':
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h:52:3: warning: no return statement in function returning non-void [-Wreturn-type]
+  {};
+   ^
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h: In member function 'virtual uint32_t PAW_Line::send_to_ram(uint16_t, uint16_t)':
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h:81:3: warning: no return statement in function returning non-void [-Wreturn-type]
+  {};
+   ^
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h: In constructor 'PAW_Circle::PAW_Circle(PAW_Vector, float, bool, PAW_Color)':
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h:206:8: warning: 'PAW_Circle::radius' will be initialized after [-Wreorder]
+  float radius;
+        ^~~~~~
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h:200:28: warning:   base 'PAW_Primitive' [-Wreorder]
+   PAW_Primitive(filled, col)
+                            ^
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h:197:2: warning:   when initialized here [-Wreorder]
+  PAW_Circle(PAW_Vector c, float rad, bool filled, PAW_Color col):
+  ^~~~~~~~~~
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h: In member function 'virtual uint32_t PAW_Circle::send_to_ram(uint16_t, uint16_t)':
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h:204:3: warning: no return statement in function returning non-void [-Wreturn-type]
+  {};
+   ^
+In file included from ..\Src\main.cpp:43:0:
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Vector.h: In member function 'float& PAW_Vector::operator[](char)':
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Vector.h:226:2: warning: control reaches end of non-void function [-Wreturn-type]
+  }
+  ^
+arm-atollic-eabi-gcc -c ..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32F429xx -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\STM32F4xx_HAL_Driver\Inc -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\CMSIS\Device\ST\STM32F4xx\Include -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\CMSIS\Include -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Debug -I../Inc -O0 -ffunction-sections -g3 -fstack-usage -Wall -fmessage-length=0 -o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.o 
+arm-atollic-eabi-gcc -c ..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32F429xx -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\STM32F4xx_HAL_Driver\Inc -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\CMSIS\Device\ST\STM32F4xx\Include -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\CMSIS\Include -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Debug -I../Inc -O0 -ffunction-sections -g3 -fstack-usage -Wall -fmessage-length=0 -o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.o 
+arm-atollic-eabi-gcc -c ..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32F429xx -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\STM32F4xx_HAL_Driver\Inc -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\CMSIS\Device\ST\STM32F4xx\Include -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\CMSIS\Include -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Debug -I../Inc -O0 -ffunction-sections -g3 -fstack-usage -Wall -fmessage-length=0 -o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.o 
+arm-atollic-eabi-gcc -c ..\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dsi.c -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -std=gnu11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32F429xx -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\STM32F4xx_HAL_Driver\Inc -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\CMSIS\Device\ST\STM32F4xx\Include -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\CMSIS\Include -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Debug -I../Inc -O0 -ffunction-sections -g3 -fstack-usage -Wall -fmessage-length=0 -o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dsi.o 
+arm-atollic-eabi-g++ -o PAW.elf Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma2d.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dsi.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_ltdc.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_ltdc_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_sdram.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_fmc.o Src\ili9341.o Src\main.o Src\paw.o Src\stm32f429i_discovery.o Src\stm32f429i_discovery_eeprom.o Src\stm32f429i_discovery_lcd.o Src\stm32f429i_discovery_sdram.o Src\stm32f4xx_hal_msp.o Src\stm32f4xx_it.o Src\system_stm32f4xx.o startup\startup_stm32f429xx.o -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -T../STM32F429ZITx_FLASH.ld -specs=nosys.specs -static -Wl,-cref,-u,Reset_Handler -Wl,-Map=PAW.map -Wl,--gc-sections -Wl,--defsym=malloc_getpagesize_P=0x1000 -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group 
+C:\Program Files (x86)\Atollic\TrueSTUDIO for STM32 9.0.0\ide\jre\bin\java -jar C:\Program Files (x86)\Atollic\TrueSTUDIO for STM32 9.0.0\Tools\arm-atollic-reports.jar convert hex sizeinfo list PAW.elf 
+Generate build reports...
+Converting build output to hex
+Output sent to: PAW.hex
+Converting build output to hex done
+Print size information
+   text	   data	    bss	    dec	    hex	filename
+ 330492	   2036	   8704	 341232	  534f0	PAW.elf
+Print size information done
+Generate listing file
+Output sent to: PAW.list
+Generate listing file done
+Generate build reports done
+Info: Parallel threads used: 8
+18:15:32 **** Incremental Build of configuration Debug for project PAW ****
+Info: Internal Builder is used for build
+arm-atollic-eabi-g++ -c ..\Src\main.cpp -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -std=gnu++11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32F429xx -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\STM32F4xx_HAL_Driver\Inc -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\CMSIS\Device\ST\STM32F4xx\Include -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\CMSIS\Include -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Debug -O0 -ffunction-sections -fno-rtti -fno-exceptions -g3 -fstack-usage -Wall -fno-threadsafe-statics -o Src\main.o 
+In file included from ..\Src\main.cpp:44:0:
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Matrix.h: In static member function 'static PAW_Matrix PAW_Matrix::relative_error(const PAW_Matrix&, const PAW_Matrix&, float)':
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Matrix.h:428:3: warning: this 'for' clause does not guard... [-Wmisleading-indentation]
+   for(auto const i : index_tab)
+   ^~~
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Matrix.h:433:4: note: ...this statement, but the latter is misleadingly indented as if it is guarded by the 'for'
+    return result;
+    ^~~~~~
+In file included from ..\Src\main.cpp:46:0:
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h: In constructor 'PAW_Primitive::PAW_Primitive(bool, PAW_Color)':
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h:41:7: warning: 'PAW_Primitive::is_filled' will be initialized after [-Wreorder]
+  bool is_filled;
+       ^~~~~~~~~
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h:40:12: warning:   'PAW_Color PAW_Primitive::col' [-Wreorder]
+  PAW_Color col;
+            ^~~
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h:37:2: warning:   when initialized here [-Wreorder]
+  PAW_Primitive(bool filled, PAW_Color acol): is_filled(filled), col(acol) {};
+  ^~~~~~~~~~~~~
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h: In constructor 'PAW_Point::PAW_Point(PAW_Vector, PAW_Color)':
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h:50:13: warning: 'PAW_Point::pos' will be initialized after [-Wreorder]
+  PAW_Vector pos;
+             ^~~
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h:48:81: warning:   base 'PAW_Primitive' [-Wreorder]
+  PAW_Point(PAW_Vector apos, PAW_Color acol):pos(apos), PAW_Primitive(false, acol){};
+                                                                                 ^
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h:48:2: warning:   when initialized here [-Wreorder]
+  PAW_Point(PAW_Vector apos, PAW_Color acol):pos(apos), PAW_Primitive(false, acol){};
+  ^~~~~~~~~
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h: In member function 'virtual uint32_t PAW_Point::send_to_ram(uint16_t, uint16_t)':
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h:52:3: warning: no return statement in function returning non-void [-Wreturn-type]
+  {};
+   ^
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h: In member function 'virtual uint32_t PAW_Line::send_to_ram(uint16_t, uint16_t)':
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h:81:3: warning: no return statement in function returning non-void [-Wreturn-type]
+  {};
+   ^
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h: In constructor 'PAW_Circle::PAW_Circle(PAW_Vector, float, bool, PAW_Color)':
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h:206:8: warning: 'PAW_Circle::radius' will be initialized after [-Wreorder]
+  float radius;
+        ^~~~~~
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h:200:28: warning:   base 'PAW_Primitive' [-Wreorder]
+   PAW_Primitive(filled, col)
+                            ^
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h:197:2: warning:   when initialized here [-Wreorder]
+  PAW_Circle(PAW_Vector c, float rad, bool filled, PAW_Color col):
+  ^~~~~~~~~~
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h: In member function 'virtual uint32_t PAW_Circle::send_to_ram(uint16_t, uint16_t)':
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h:204:3: warning: no return statement in function returning non-void [-Wreturn-type]
+  {};
+   ^
+In file included from ..\Src\main.cpp:43:0:
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Vector.h: In member function 'float& PAW_Vector::operator[](char)':
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Vector.h:226:2: warning: control reaches end of non-void function [-Wreturn-type]
+  }
+  ^
+arm-atollic-eabi-g++ -o PAW.elf Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma2d.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dsi.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_ltdc.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_ltdc_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_sdram.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_fmc.o Src\ili9341.o Src\main.o Src\paw.o Src\stm32f429i_discovery.o Src\stm32f429i_discovery_eeprom.o Src\stm32f429i_discovery_lcd.o Src\stm32f429i_discovery_sdram.o Src\stm32f4xx_hal_msp.o Src\stm32f4xx_it.o Src\system_stm32f4xx.o startup\startup_stm32f429xx.o -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -T../STM32F429ZITx_FLASH.ld -specs=nosys.specs -static -Wl,-cref,-u,Reset_Handler -Wl,-Map=PAW.map -Wl,--gc-sections -Wl,--defsym=malloc_getpagesize_P=0x1000 -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group 
+C:\Program Files (x86)\Atollic\TrueSTUDIO for STM32 9.0.0\ide\jre\bin\java -jar C:\Program Files (x86)\Atollic\TrueSTUDIO for STM32 9.0.0\Tools\arm-atollic-reports.jar convert hex sizeinfo list PAW.elf 
+Generate build reports...
+Converting build output to hex
+Output sent to: PAW.hex
+Converting build output to hex done
+Print size information
+   text	   data	    bss	    dec	    hex	filename
+ 330492	   2036	   8704	 341232	  534f0	PAW.elf
+Print size information done
+Generate listing file
+Output sent to: PAW.list
+Generate listing file done
+Generate build reports done
+Info: Parallel threads used: 1
+18:18:08 **** Incremental Build of configuration Debug for project PAW ****
+Info: Internal Builder is used for build
+arm-atollic-eabi-g++ -c ..\Src\main.cpp -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -std=gnu++11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32F429xx -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\STM32F4xx_HAL_Driver\Inc -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\CMSIS\Device\ST\STM32F4xx\Include -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\CMSIS\Include -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Debug -O0 -ffunction-sections -fno-rtti -fno-exceptions -g3 -fstack-usage -Wall -fno-threadsafe-statics -o Src\main.o 
+In file included from ..\Src\main.cpp:44:0:
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Matrix.h: In static member function 'static PAW_Matrix PAW_Matrix::relative_error(const PAW_Matrix&, const PAW_Matrix&, float)':
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Matrix.h:428:3: warning: this 'for' clause does not guard... [-Wmisleading-indentation]
+   for(auto const i : index_tab)
+   ^~~
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Matrix.h:433:4: note: ...this statement, but the latter is misleadingly indented as if it is guarded by the 'for'
+    return result;
+    ^~~~~~
+In file included from ..\Src\main.cpp:46:0:
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h: In constructor 'PAW_Primitive::PAW_Primitive(bool, PAW_Color)':
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h:41:7: warning: 'PAW_Primitive::is_filled' will be initialized after [-Wreorder]
+  bool is_filled;
+       ^~~~~~~~~
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h:40:12: warning:   'PAW_Color PAW_Primitive::col' [-Wreorder]
+  PAW_Color col;
+            ^~~
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h:37:2: warning:   when initialized here [-Wreorder]
+  PAW_Primitive(bool filled, PAW_Color acol): is_filled(filled), col(acol) {};
+  ^~~~~~~~~~~~~
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h: In constructor 'PAW_Point::PAW_Point(PAW_Vector, PAW_Color)':
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h:50:13: warning: 'PAW_Point::pos' will be initialized after [-Wreorder]
+  PAW_Vector pos;
+             ^~~
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h:48:81: warning:   base 'PAW_Primitive' [-Wreorder]
+  PAW_Point(PAW_Vector apos, PAW_Color acol):pos(apos), PAW_Primitive(false, acol){};
+                                                                                 ^
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h:48:2: warning:   when initialized here [-Wreorder]
+  PAW_Point(PAW_Vector apos, PAW_Color acol):pos(apos), PAW_Primitive(false, acol){};
+  ^~~~~~~~~
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h: In member function 'virtual uint32_t PAW_Point::send_to_ram(uint16_t, uint16_t)':
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h:52:3: warning: no return statement in function returning non-void [-Wreturn-type]
+  {};
+   ^
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h: In member function 'virtual uint32_t PAW_Line::send_to_ram(uint16_t, uint16_t)':
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h:81:3: warning: no return statement in function returning non-void [-Wreturn-type]
+  {};
+   ^
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h: In constructor 'PAW_Circle::PAW_Circle(PAW_Vector, float, bool, PAW_Color)':
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h:206:8: warning: 'PAW_Circle::radius' will be initialized after [-Wreorder]
+  float radius;
+        ^~~~~~
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h:200:28: warning:   base 'PAW_Primitive' [-Wreorder]
+   PAW_Primitive(filled, col)
+                            ^
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h:197:2: warning:   when initialized here [-Wreorder]
+  PAW_Circle(PAW_Vector c, float rad, bool filled, PAW_Color col):
+  ^~~~~~~~~~
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h: In member function 'virtual uint32_t PAW_Circle::send_to_ram(uint16_t, uint16_t)':
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h:204:3: warning: no return statement in function returning non-void [-Wreturn-type]
+  {};
+   ^
+In file included from ..\Src\main.cpp:43:0:
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Vector.h: In member function 'float& PAW_Vector::operator[](char)':
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Vector.h:226:2: warning: control reaches end of non-void function [-Wreturn-type]
+  }
+  ^
+arm-atollic-eabi-g++ -o PAW.elf Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma2d.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dsi.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_ltdc.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_ltdc_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_sdram.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_fmc.o Src\ili9341.o Src\main.o Src\paw.o Src\stm32f429i_discovery.o Src\stm32f429i_discovery_eeprom.o Src\stm32f429i_discovery_lcd.o Src\stm32f429i_discovery_sdram.o Src\stm32f4xx_hal_msp.o Src\stm32f4xx_it.o Src\system_stm32f4xx.o startup\startup_stm32f429xx.o -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -T../STM32F429ZITx_FLASH.ld -specs=nosys.specs -static -Wl,-cref,-u,Reset_Handler -Wl,-Map=PAW.map -Wl,--gc-sections -Wl,--defsym=malloc_getpagesize_P=0x1000 -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group 
+C:\Program Files (x86)\Atollic\TrueSTUDIO for STM32 9.0.0\ide\jre\bin\java -jar C:\Program Files (x86)\Atollic\TrueSTUDIO for STM32 9.0.0\Tools\arm-atollic-reports.jar convert hex sizeinfo list PAW.elf 
+Generate build reports...
+Converting build output to hex
+Output sent to: PAW.hex
+Converting build output to hex done
+Print size information
+   text	   data	    bss	    dec	    hex	filename
+ 330492	   2036	   8704	 341232	  534f0	PAW.elf
+Print size information done
+Generate listing file
+Output sent to: PAW.list
+Generate listing file done
+Generate build reports done
+Info: Parallel threads used: 1
+18:18:58 **** Incremental Build of configuration Debug for project PAW ****
+Info: Internal Builder is used for build
+arm-atollic-eabi-g++ -c ..\Src\main.cpp -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -std=gnu++11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32F429xx -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\STM32F4xx_HAL_Driver\Inc -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\CMSIS\Device\ST\STM32F4xx\Include -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\CMSIS\Include -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Debug -O0 -ffunction-sections -fno-rtti -fno-exceptions -g3 -fstack-usage -Wall -fno-threadsafe-statics -o Src\main.o 
+In file included from ..\Src\main.cpp:44:0:
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Matrix.h: In static member function 'static PAW_Matrix PAW_Matrix::relative_error(const PAW_Matrix&, const PAW_Matrix&, float)':
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Matrix.h:428:3: warning: this 'for' clause does not guard... [-Wmisleading-indentation]
+   for(auto const i : index_tab)
+   ^~~
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Matrix.h:433:4: note: ...this statement, but the latter is misleadingly indented as if it is guarded by the 'for'
+    return result;
+    ^~~~~~
+In file included from ..\Src\main.cpp:46:0:
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h: In constructor 'PAW_Primitive::PAW_Primitive(bool, PAW_Color)':
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h:41:7: warning: 'PAW_Primitive::is_filled' will be initialized after [-Wreorder]
+  bool is_filled;
+       ^~~~~~~~~
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h:40:12: warning:   'PAW_Color PAW_Primitive::col' [-Wreorder]
+  PAW_Color col;
+            ^~~
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h:37:2: warning:   when initialized here [-Wreorder]
+  PAW_Primitive(bool filled, PAW_Color acol): is_filled(filled), col(acol) {};
+  ^~~~~~~~~~~~~
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h: In constructor 'PAW_Point::PAW_Point(PAW_Vector, PAW_Color)':
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h:50:13: warning: 'PAW_Point::pos' will be initialized after [-Wreorder]
+  PAW_Vector pos;
+             ^~~
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h:48:81: warning:   base 'PAW_Primitive' [-Wreorder]
+  PAW_Point(PAW_Vector apos, PAW_Color acol):pos(apos), PAW_Primitive(false, acol){};
+                                                                                 ^
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h:48:2: warning:   when initialized here [-Wreorder]
+  PAW_Point(PAW_Vector apos, PAW_Color acol):pos(apos), PAW_Primitive(false, acol){};
+  ^~~~~~~~~
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h: In member function 'virtual uint32_t PAW_Point::send_to_ram(uint16_t, uint16_t)':
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h:52:3: warning: no return statement in function returning non-void [-Wreturn-type]
+  {};
+   ^
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h: In member function 'virtual uint32_t PAW_Line::send_to_ram(uint16_t, uint16_t)':
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h:81:3: warning: no return statement in function returning non-void [-Wreturn-type]
+  {};
+   ^
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h: In constructor 'PAW_Circle::PAW_Circle(PAW_Vector, float, bool, PAW_Color)':
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h:206:8: warning: 'PAW_Circle::radius' will be initialized after [-Wreorder]
+  float radius;
+        ^~~~~~
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h:200:28: warning:   base 'PAW_Primitive' [-Wreorder]
+   PAW_Primitive(filled, col)
+                            ^
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h:197:2: warning:   when initialized here [-Wreorder]
+  PAW_Circle(PAW_Vector c, float rad, bool filled, PAW_Color col):
+  ^~~~~~~~~~
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h: In member function 'virtual uint32_t PAW_Circle::send_to_ram(uint16_t, uint16_t)':
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h:204:3: warning: no return statement in function returning non-void [-Wreturn-type]
+  {};
+   ^
+In file included from ..\Src\main.cpp:43:0:
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Vector.h: In member function 'float& PAW_Vector::operator[](char)':
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Vector.h:226:2: warning: control reaches end of non-void function [-Wreturn-type]
+  }
+  ^
+arm-atollic-eabi-g++ -o PAW.elf Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma2d.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dsi.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_ltdc.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_ltdc_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_sdram.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_fmc.o Src\ili9341.o Src\main.o Src\paw.o Src\stm32f429i_discovery.o Src\stm32f429i_discovery_eeprom.o Src\stm32f429i_discovery_lcd.o Src\stm32f429i_discovery_sdram.o Src\stm32f4xx_hal_msp.o Src\stm32f4xx_it.o Src\system_stm32f4xx.o startup\startup_stm32f429xx.o -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -T../STM32F429ZITx_FLASH.ld -specs=nosys.specs -static -Wl,-cref,-u,Reset_Handler -Wl,-Map=PAW.map -Wl,--gc-sections -Wl,--defsym=malloc_getpagesize_P=0x1000 -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group 
+C:\Program Files (x86)\Atollic\TrueSTUDIO for STM32 9.0.0\ide\jre\bin\java -jar C:\Program Files (x86)\Atollic\TrueSTUDIO for STM32 9.0.0\Tools\arm-atollic-reports.jar convert hex sizeinfo list PAW.elf 
+Generate build reports...
+Converting build output to hex
+Output sent to: PAW.hex
+Converting build output to hex done
+Print size information
+   text	   data	    bss	    dec	    hex	filename
+ 330492	   2036	   8704	 341232	  534f0	PAW.elf
+Print size information done
+Generate listing file
+Output sent to: PAW.list
+Generate listing file done
+Generate build reports done
+Info: Parallel threads used: 1
+18:21:09 **** Incremental Build of configuration Debug for project PAW ****
+Info: Internal Builder is used for build
+arm-atollic-eabi-g++ -c ..\Src\main.cpp -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -std=gnu++11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32F429xx -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\STM32F4xx_HAL_Driver\Inc -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\CMSIS\Device\ST\STM32F4xx\Include -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\CMSIS\Include -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Debug -O0 -ffunction-sections -fno-rtti -fno-exceptions -g3 -fstack-usage -Wall -fno-threadsafe-statics -o Src\main.o 
+In file included from ..\Src\main.cpp:44:0:
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Matrix.h: In static member function 'static PAW_Matrix PAW_Matrix::relative_error(const PAW_Matrix&, const PAW_Matrix&, float)':
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Matrix.h:428:3: warning: this 'for' clause does not guard... [-Wmisleading-indentation]
+   for(auto const i : index_tab)
+   ^~~
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Matrix.h:433:4: note: ...this statement, but the latter is misleadingly indented as if it is guarded by the 'for'
+    return result;
+    ^~~~~~
+In file included from ..\Src\main.cpp:46:0:
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h: In constructor 'PAW_Primitive::PAW_Primitive(bool, PAW_Color)':
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h:41:7: warning: 'PAW_Primitive::is_filled' will be initialized after [-Wreorder]
+  bool is_filled;
+       ^~~~~~~~~
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h:40:12: warning:   'PAW_Color PAW_Primitive::col' [-Wreorder]
+  PAW_Color col;
+            ^~~
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h:37:2: warning:   when initialized here [-Wreorder]
+  PAW_Primitive(bool filled, PAW_Color acol): is_filled(filled), col(acol) {};
+  ^~~~~~~~~~~~~
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h: In constructor 'PAW_Point::PAW_Point(PAW_Vector, PAW_Color)':
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h:50:13: warning: 'PAW_Point::pos' will be initialized after [-Wreorder]
+  PAW_Vector pos;
+             ^~~
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h:48:81: warning:   base 'PAW_Primitive' [-Wreorder]
+  PAW_Point(PAW_Vector apos, PAW_Color acol):pos(apos), PAW_Primitive(false, acol){};
+                                                                                 ^
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h:48:2: warning:   when initialized here [-Wreorder]
+  PAW_Point(PAW_Vector apos, PAW_Color acol):pos(apos), PAW_Primitive(false, acol){};
+  ^~~~~~~~~
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h: In member function 'virtual uint32_t PAW_Point::send_to_ram(uint16_t, uint16_t)':
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h:52:3: warning: no return statement in function returning non-void [-Wreturn-type]
+  {};
+   ^
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h: In member function 'virtual uint32_t PAW_Line::send_to_ram(uint16_t, uint16_t)':
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h:81:3: warning: no return statement in function returning non-void [-Wreturn-type]
+  {};
+   ^
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h: In constructor 'PAW_Circle::PAW_Circle(PAW_Vector, float, bool, PAW_Color)':
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h:206:8: warning: 'PAW_Circle::radius' will be initialized after [-Wreorder]
+  float radius;
+        ^~~~~~
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h:200:28: warning:   base 'PAW_Primitive' [-Wreorder]
+   PAW_Primitive(filled, col)
+                            ^
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h:197:2: warning:   when initialized here [-Wreorder]
+  PAW_Circle(PAW_Vector c, float rad, bool filled, PAW_Color col):
+  ^~~~~~~~~~
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h: In member function 'virtual uint32_t PAW_Circle::send_to_ram(uint16_t, uint16_t)':
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h:204:3: warning: no return statement in function returning non-void [-Wreturn-type]
+  {};
+   ^
+In file included from ..\Src\main.cpp:43:0:
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Vector.h: In member function 'float& PAW_Vector::operator[](char)':
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Vector.h:226:2: warning: control reaches end of non-void function [-Wreturn-type]
+  }
+  ^
+arm-atollic-eabi-g++ -o PAW.elf Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma2d.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dsi.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_ltdc.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_ltdc_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_sdram.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_fmc.o Src\ili9341.o Src\main.o Src\paw.o Src\stm32f429i_discovery.o Src\stm32f429i_discovery_eeprom.o Src\stm32f429i_discovery_lcd.o Src\stm32f429i_discovery_sdram.o Src\stm32f4xx_hal_msp.o Src\stm32f4xx_it.o Src\system_stm32f4xx.o startup\startup_stm32f429xx.o -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -T../STM32F429ZITx_FLASH.ld -specs=nosys.specs -static -Wl,-cref,-u,Reset_Handler -Wl,-Map=PAW.map -Wl,--gc-sections -Wl,--defsym=malloc_getpagesize_P=0x1000 -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group 
+C:\Program Files (x86)\Atollic\TrueSTUDIO for STM32 9.0.0\ide\jre\bin\java -jar C:\Program Files (x86)\Atollic\TrueSTUDIO for STM32 9.0.0\Tools\arm-atollic-reports.jar convert hex sizeinfo list PAW.elf 
+Generate build reports...
+Converting build output to hex
+Output sent to: PAW.hex
+Converting build output to hex done
+Print size information
+   text	   data	    bss	    dec	    hex	filename
+ 330492	   2036	   8704	 341232	  534f0	PAW.elf
+Print size information done
+Generate listing file
+Output sent to: PAW.list
+Generate listing file done
+Generate build reports done
+Info: Parallel threads used: 1
+18:23:14 **** Incremental Build of configuration Debug for project PAW ****
+Info: Internal Builder is used for build
+arm-atollic-eabi-g++ -c ..\Src\main.cpp -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -std=gnu++11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32F429xx -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\STM32F4xx_HAL_Driver\Inc -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\CMSIS\Device\ST\STM32F4xx\Include -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\CMSIS\Include -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Debug -O0 -ffunction-sections -fno-rtti -fno-exceptions -g3 -fstack-usage -Wall -fno-threadsafe-statics -o Src\main.o 
+In file included from ..\Src\main.cpp:44:0:
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Matrix.h: In static member function 'static PAW_Matrix PAW_Matrix::relative_error(const PAW_Matrix&, const PAW_Matrix&, float)':
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Matrix.h:428:3: warning: this 'for' clause does not guard... [-Wmisleading-indentation]
+   for(auto const i : index_tab)
+   ^~~
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Matrix.h:433:4: note: ...this statement, but the latter is misleadingly indented as if it is guarded by the 'for'
+    return result;
+    ^~~~~~
+In file included from ..\Src\main.cpp:46:0:
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h: In constructor 'PAW_Primitive::PAW_Primitive(bool, PAW_Color)':
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h:41:7: warning: 'PAW_Primitive::is_filled' will be initialized after [-Wreorder]
+  bool is_filled;
+       ^~~~~~~~~
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h:40:12: warning:   'PAW_Color PAW_Primitive::col' [-Wreorder]
+  PAW_Color col;
+            ^~~
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h:37:2: warning:   when initialized here [-Wreorder]
+  PAW_Primitive(bool filled, PAW_Color acol): is_filled(filled), col(acol) {};
+  ^~~~~~~~~~~~~
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h: In constructor 'PAW_Point::PAW_Point(PAW_Vector, PAW_Color)':
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h:50:13: warning: 'PAW_Point::pos' will be initialized after [-Wreorder]
+  PAW_Vector pos;
+             ^~~
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h:48:81: warning:   base 'PAW_Primitive' [-Wreorder]
+  PAW_Point(PAW_Vector apos, PAW_Color acol):pos(apos), PAW_Primitive(false, acol){};
+                                                                                 ^
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h:48:2: warning:   when initialized here [-Wreorder]
+  PAW_Point(PAW_Vector apos, PAW_Color acol):pos(apos), PAW_Primitive(false, acol){};
+  ^~~~~~~~~
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h: In member function 'virtual uint32_t PAW_Point::send_to_ram(uint16_t, uint16_t)':
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h:52:3: warning: no return statement in function returning non-void [-Wreturn-type]
+  {};
+   ^
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h: In member function 'virtual uint32_t PAW_Line::send_to_ram(uint16_t, uint16_t)':
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h:81:3: warning: no return statement in function returning non-void [-Wreturn-type]
+  {};
+   ^
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h: In constructor 'PAW_Circle::PAW_Circle(PAW_Vector, float, bool, PAW_Color)':
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h:206:8: warning: 'PAW_Circle::radius' will be initialized after [-Wreorder]
+  float radius;
+        ^~~~~~
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h:200:28: warning:   base 'PAW_Primitive' [-Wreorder]
+   PAW_Primitive(filled, col)
+                            ^
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h:197:2: warning:   when initialized here [-Wreorder]
+  PAW_Circle(PAW_Vector c, float rad, bool filled, PAW_Color col):
+  ^~~~~~~~~~
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h: In member function 'virtual uint32_t PAW_Circle::send_to_ram(uint16_t, uint16_t)':
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h:204:3: warning: no return statement in function returning non-void [-Wreturn-type]
+  {};
+   ^
+In file included from ..\Src\main.cpp:43:0:
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Vector.h: In member function 'float& PAW_Vector::operator[](char)':
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Vector.h:226:2: warning: control reaches end of non-void function [-Wreturn-type]
+  }
+  ^
+arm-atollic-eabi-g++ -o PAW.elf Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma2d.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dsi.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_ltdc.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_ltdc_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_sdram.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_fmc.o Src\ili9341.o Src\main.o Src\paw.o Src\stm32f429i_discovery.o Src\stm32f429i_discovery_eeprom.o Src\stm32f429i_discovery_lcd.o Src\stm32f429i_discovery_sdram.o Src\stm32f4xx_hal_msp.o Src\stm32f4xx_it.o Src\system_stm32f4xx.o startup\startup_stm32f429xx.o -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -T../STM32F429ZITx_FLASH.ld -specs=nosys.specs -static -Wl,-cref,-u,Reset_Handler -Wl,-Map=PAW.map -Wl,--gc-sections -Wl,--defsym=malloc_getpagesize_P=0x1000 -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group 
+C:\Program Files (x86)\Atollic\TrueSTUDIO for STM32 9.0.0\ide\jre\bin\java -jar C:\Program Files (x86)\Atollic\TrueSTUDIO for STM32 9.0.0\Tools\arm-atollic-reports.jar convert hex sizeinfo list PAW.elf 
+Generate build reports...
+Converting build output to hex
+Output sent to: PAW.hex
+Converting build output to hex done
+Print size information
+   text	   data	    bss	    dec	    hex	filename
+ 330492	   2036	   8704	 341232	  534f0	PAW.elf
+Print size information done
+Generate listing file
+Output sent to: PAW.list
+Generate listing file done
+Generate build reports done
+Info: Parallel threads used: 1
+18:24:51 **** Incremental Build of configuration Debug for project PAW ****
+Info: Internal Builder is used for build
+arm-atollic-eabi-g++ -c ..\Src\main.cpp -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -std=gnu++11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32F429xx -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\STM32F4xx_HAL_Driver\Inc -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\CMSIS\Device\ST\STM32F4xx\Include -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\CMSIS\Include -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Debug -O0 -ffunction-sections -fno-rtti -fno-exceptions -g3 -fstack-usage -Wall -fno-threadsafe-statics -o Src\main.o 
+In file included from ..\Src\main.cpp:44:0:
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Matrix.h: In static member function 'static PAW_Matrix PAW_Matrix::relative_error(const PAW_Matrix&, const PAW_Matrix&, float)':
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Matrix.h:428:3: warning: this 'for' clause does not guard... [-Wmisleading-indentation]
+   for(auto const i : index_tab)
+   ^~~
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Matrix.h:433:4: note: ...this statement, but the latter is misleadingly indented as if it is guarded by the 'for'
+    return result;
+    ^~~~~~
+In file included from ..\Src\main.cpp:46:0:
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h: In constructor 'PAW_Primitive::PAW_Primitive(bool, PAW_Color)':
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h:41:7: warning: 'PAW_Primitive::is_filled' will be initialized after [-Wreorder]
+  bool is_filled;
+       ^~~~~~~~~
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h:40:12: warning:   'PAW_Color PAW_Primitive::col' [-Wreorder]
+  PAW_Color col;
+            ^~~
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h:37:2: warning:   when initialized here [-Wreorder]
+  PAW_Primitive(bool filled, PAW_Color acol): is_filled(filled), col(acol) {};
+  ^~~~~~~~~~~~~
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h: In constructor 'PAW_Point::PAW_Point(PAW_Vector, PAW_Color)':
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h:50:13: warning: 'PAW_Point::pos' will be initialized after [-Wreorder]
+  PAW_Vector pos;
+             ^~~
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h:48:81: warning:   base 'PAW_Primitive' [-Wreorder]
+  PAW_Point(PAW_Vector apos, PAW_Color acol):pos(apos), PAW_Primitive(false, acol){};
+                                                                                 ^
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h:48:2: warning:   when initialized here [-Wreorder]
+  PAW_Point(PAW_Vector apos, PAW_Color acol):pos(apos), PAW_Primitive(false, acol){};
+  ^~~~~~~~~
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h: In member function 'virtual uint32_t PAW_Point::send_to_ram(uint16_t, uint16_t)':
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h:52:3: warning: no return statement in function returning non-void [-Wreturn-type]
+  {};
+   ^
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h: In member function 'virtual uint32_t PAW_Line::send_to_ram(uint16_t, uint16_t)':
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h:81:3: warning: no return statement in function returning non-void [-Wreturn-type]
+  {};
+   ^
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h: In constructor 'PAW_Circle::PAW_Circle(PAW_Vector, float, bool, PAW_Color)':
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h:206:8: warning: 'PAW_Circle::radius' will be initialized after [-Wreorder]
+  float radius;
+        ^~~~~~
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h:200:28: warning:   base 'PAW_Primitive' [-Wreorder]
+   PAW_Primitive(filled, col)
+                            ^
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h:197:2: warning:   when initialized here [-Wreorder]
+  PAW_Circle(PAW_Vector c, float rad, bool filled, PAW_Color col):
+  ^~~~~~~~~~
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h: In member function 'virtual uint32_t PAW_Circle::send_to_ram(uint16_t, uint16_t)':
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h:204:3: warning: no return statement in function returning non-void [-Wreturn-type]
+  {};
+   ^
+In file included from ..\Src\main.cpp:43:0:
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Vector.h: In member function 'float& PAW_Vector::operator[](char)':
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Vector.h:226:2: warning: control reaches end of non-void function [-Wreturn-type]
+  }
+  ^
+arm-atollic-eabi-g++ -o PAW.elf Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma2d.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dsi.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_ltdc.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_ltdc_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_sdram.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_fmc.o Src\ili9341.o Src\main.o Src\paw.o Src\stm32f429i_discovery.o Src\stm32f429i_discovery_eeprom.o Src\stm32f429i_discovery_lcd.o Src\stm32f429i_discovery_sdram.o Src\stm32f4xx_hal_msp.o Src\stm32f4xx_it.o Src\system_stm32f4xx.o startup\startup_stm32f429xx.o -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -T../STM32F429ZITx_FLASH.ld -specs=nosys.specs -static -Wl,-cref,-u,Reset_Handler -Wl,-Map=PAW.map -Wl,--gc-sections -Wl,--defsym=malloc_getpagesize_P=0x1000 -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group 
+C:\Program Files (x86)\Atollic\TrueSTUDIO for STM32 9.0.0\ide\jre\bin\java -jar C:\Program Files (x86)\Atollic\TrueSTUDIO for STM32 9.0.0\Tools\arm-atollic-reports.jar convert hex sizeinfo list PAW.elf 
+Generate build reports...
+Converting build output to hex
+Output sent to: PAW.hex
+Converting build output to hex done
+Print size information
+   text	   data	    bss	    dec	    hex	filename
+ 330492	   2036	   8704	 341232	  534f0	PAW.elf
+Print size information done
+Generate listing file
+Output sent to: PAW.list
+Generate listing file done
+Generate build reports done
+Info: Parallel threads used: 1
+18:26:38 **** Incremental Build of configuration Debug for project PAW ****
+Info: Internal Builder is used for build
+arm-atollic-eabi-g++ -c ..\Src\main.cpp -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -std=gnu++11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32F429xx -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\STM32F4xx_HAL_Driver\Inc -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\CMSIS\Device\ST\STM32F4xx\Include -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\CMSIS\Include -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Debug -O0 -ffunction-sections -fno-rtti -fno-exceptions -g3 -fstack-usage -Wall -fno-threadsafe-statics -o Src\main.o 
+In file included from ..\Src\main.cpp:44:0:
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Matrix.h: In static member function 'static PAW_Matrix PAW_Matrix::relative_error(const PAW_Matrix&, const PAW_Matrix&, float)':
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Matrix.h:428:3: warning: this 'for' clause does not guard... [-Wmisleading-indentation]
+   for(auto const i : index_tab)
+   ^~~
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Matrix.h:433:4: note: ...this statement, but the latter is misleadingly indented as if it is guarded by the 'for'
+    return result;
+    ^~~~~~
+In file included from ..\Src\main.cpp:46:0:
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h: In constructor 'PAW_Primitive::PAW_Primitive(bool, PAW_Color)':
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h:41:7: warning: 'PAW_Primitive::is_filled' will be initialized after [-Wreorder]
+  bool is_filled;
+       ^~~~~~~~~
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h:40:12: warning:   'PAW_Color PAW_Primitive::col' [-Wreorder]
+  PAW_Color col;
+            ^~~
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h:37:2: warning:   when initialized here [-Wreorder]
+  PAW_Primitive(bool filled, PAW_Color acol): is_filled(filled), col(acol) {};
+  ^~~~~~~~~~~~~
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h: In constructor 'PAW_Point::PAW_Point(PAW_Vector, PAW_Color)':
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h:50:13: warning: 'PAW_Point::pos' will be initialized after [-Wreorder]
+  PAW_Vector pos;
+             ^~~
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h:48:81: warning:   base 'PAW_Primitive' [-Wreorder]
+  PAW_Point(PAW_Vector apos, PAW_Color acol):pos(apos), PAW_Primitive(false, acol){};
+                                                                                 ^
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h:48:2: warning:   when initialized here [-Wreorder]
+  PAW_Point(PAW_Vector apos, PAW_Color acol):pos(apos), PAW_Primitive(false, acol){};
+  ^~~~~~~~~
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h: In member function 'virtual uint32_t PAW_Point::send_to_ram(uint16_t, uint16_t)':
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h:52:3: warning: no return statement in function returning non-void [-Wreturn-type]
+  {};
+   ^
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h: In member function 'virtual uint32_t PAW_Line::send_to_ram(uint16_t, uint16_t)':
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h:81:3: warning: no return statement in function returning non-void [-Wreturn-type]
+  {};
+   ^
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h: In constructor 'PAW_Circle::PAW_Circle(PAW_Vector, float, bool, PAW_Color)':
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h:206:8: warning: 'PAW_Circle::radius' will be initialized after [-Wreorder]
+  float radius;
+        ^~~~~~
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h:200:28: warning:   base 'PAW_Primitive' [-Wreorder]
+   PAW_Primitive(filled, col)
+                            ^
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h:197:2: warning:   when initialized here [-Wreorder]
+  PAW_Circle(PAW_Vector c, float rad, bool filled, PAW_Color col):
+  ^~~~~~~~~~
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h: In member function 'virtual uint32_t PAW_Circle::send_to_ram(uint16_t, uint16_t)':
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h:204:3: warning: no return statement in function returning non-void [-Wreturn-type]
+  {};
+   ^
+In file included from ..\Src\main.cpp:43:0:
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Vector.h: In member function 'float& PAW_Vector::operator[](char)':
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Vector.h:226:2: warning: control reaches end of non-void function [-Wreturn-type]
+  }
+  ^
+arm-atollic-eabi-g++ -o PAW.elf Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma2d.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dsi.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_ltdc.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_ltdc_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_sdram.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_fmc.o Src\ili9341.o Src\main.o Src\paw.o Src\stm32f429i_discovery.o Src\stm32f429i_discovery_eeprom.o Src\stm32f429i_discovery_lcd.o Src\stm32f429i_discovery_sdram.o Src\stm32f4xx_hal_msp.o Src\stm32f4xx_it.o Src\system_stm32f4xx.o startup\startup_stm32f429xx.o -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -T../STM32F429ZITx_FLASH.ld -specs=nosys.specs -static -Wl,-cref,-u,Reset_Handler -Wl,-Map=PAW.map -Wl,--gc-sections -Wl,--defsym=malloc_getpagesize_P=0x1000 -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group 
+C:\Program Files (x86)\Atollic\TrueSTUDIO for STM32 9.0.0\ide\jre\bin\java -jar C:\Program Files (x86)\Atollic\TrueSTUDIO for STM32 9.0.0\Tools\arm-atollic-reports.jar convert hex sizeinfo list PAW.elf 
+Generate build reports...
+Converting build output to hex
+Output sent to: PAW.hex
+Converting build output to hex done
+Print size information
+   text	   data	    bss	    dec	    hex	filename
+ 330492	   2036	   8704	 341232	  534f0	PAW.elf
+Print size information done
+Generate listing file
+Output sent to: PAW.list
+Generate listing file done
+Generate build reports done
+Info: Parallel threads used: 1
+18:28:25 **** Incremental Build of configuration Debug for project PAW ****
+Info: Internal Builder is used for build
+arm-atollic-eabi-g++ -c ..\Src\main.cpp -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -std=gnu++11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32F429xx -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\STM32F4xx_HAL_Driver\Inc -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\CMSIS\Device\ST\STM32F4xx\Include -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Drivers\CMSIS\Include -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Debug -O0 -ffunction-sections -fno-rtti -fno-exceptions -g3 -fstack-usage -Wall -fno-threadsafe-statics -o Src\main.o 
+In file included from ..\Src\main.cpp:44:0:
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Matrix.h: In static member function 'static PAW_Matrix PAW_Matrix::relative_error(const PAW_Matrix&, const PAW_Matrix&, float)':
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Matrix.h:428:3: warning: this 'for' clause does not guard... [-Wmisleading-indentation]
+   for(auto const i : index_tab)
+   ^~~
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Matrix.h:433:4: note: ...this statement, but the latter is misleadingly indented as if it is guarded by the 'for'
+    return result;
+    ^~~~~~
+In file included from ..\Src\main.cpp:46:0:
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h: In constructor 'PAW_Primitive::PAW_Primitive(bool, PAW_Color)':
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h:41:7: warning: 'PAW_Primitive::is_filled' will be initialized after [-Wreorder]
+  bool is_filled;
+       ^~~~~~~~~
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h:40:12: warning:   'PAW_Color PAW_Primitive::col' [-Wreorder]
+  PAW_Color col;
+            ^~~
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h:37:2: warning:   when initialized here [-Wreorder]
+  PAW_Primitive(bool filled, PAW_Color acol): is_filled(filled), col(acol) {};
+  ^~~~~~~~~~~~~
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h: In constructor 'PAW_Point::PAW_Point(PAW_Vector, PAW_Color)':
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h:50:13: warning: 'PAW_Point::pos' will be initialized after [-Wreorder]
+  PAW_Vector pos;
+             ^~~
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h:48:81: warning:   base 'PAW_Primitive' [-Wreorder]
+  PAW_Point(PAW_Vector apos, PAW_Color acol):pos(apos), PAW_Primitive(false, acol){};
+                                                                                 ^
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h:48:2: warning:   when initialized here [-Wreorder]
+  PAW_Point(PAW_Vector apos, PAW_Color acol):pos(apos), PAW_Primitive(false, acol){};
+  ^~~~~~~~~
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h: In member function 'virtual uint32_t PAW_Point::send_to_ram(uint16_t, uint16_t)':
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h:52:3: warning: no return statement in function returning non-void [-Wreturn-type]
+  {};
+   ^
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h: In member function 'virtual uint32_t PAW_Line::send_to_ram(uint16_t, uint16_t)':
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h:81:3: warning: no return statement in function returning non-void [-Wreturn-type]
+  {};
+   ^
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h: In constructor 'PAW_Circle::PAW_Circle(PAW_Vector, float, bool, PAW_Color)':
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h:206:8: warning: 'PAW_Circle::radius' will be initialized after [-Wreorder]
+  float radius;
+        ^~~~~~
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h:200:28: warning:   base 'PAW_Primitive' [-Wreorder]
+   PAW_Primitive(filled, col)
+                            ^
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h:197:2: warning:   when initialized here [-Wreorder]
+  PAW_Circle(PAW_Vector c, float rad, bool filled, PAW_Color col):
+  ^~~~~~~~~~
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h: In member function 'virtual uint32_t PAW_Circle::send_to_ram(uint16_t, uint16_t)':
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Primitive.h:204:3: warning: no return statement in function returning non-void [-Wreturn-type]
+  {};
+   ^
+In file included from ..\Src\main.cpp:43:0:
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Vector.h: In member function 'float& PAW_Vector::operator[](char)':
+C:\Users\bombe\Documents\SR\SR_GIT\main-repo\PAW\Inc/PAW_Vector.h:226:2: warning: control reaches end of non-void function [-Wreturn-type]
+  }
+  ^
+arm-atollic-eabi-g++ -o PAW.elf Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma2d.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dsi.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_ltdc.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_ltdc_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_sdram.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_fmc.o Src\ili9341.o Src\main.o Src\paw.o Src\stm32f429i_discovery.o Src\stm32f429i_discovery_eeprom.o Src\stm32f429i_discovery_lcd.o Src\stm32f429i_discovery_sdram.o Src\stm32f4xx_hal_msp.o Src\stm32f4xx_it.o Src\system_stm32f4xx.o startup\startup_stm32f429xx.o -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -T../STM32F429ZITx_FLASH.ld -specs=nosys.specs -static -Wl,-cref,-u,Reset_Handler -Wl,-Map=PAW.map -Wl,--gc-sections -Wl,--defsym=malloc_getpagesize_P=0x1000 -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group 
+C:\Program Files (x86)\Atollic\TrueSTUDIO for STM32 9.0.0\ide\jre\bin\java -jar C:\Program Files (x86)\Atollic\TrueSTUDIO for STM32 9.0.0\Tools\arm-atollic-reports.jar convert hex sizeinfo list PAW.elf 
+Generate build reports...
+Converting build output to hex
+Output sent to: PAW.hex
+Converting build output to hex done
+Print size information
+   text	   data	    bss	    dec	    hex	filename
+ 330492	   2036	   8704	 341232	  534f0	PAW.elf
+Print size information done
+Generate listing file
+Output sent to: PAW.list
+Generate listing file done
+Generate build reports done
+Info: Parallel threads used: 1

@@ -408,7 +408,7 @@ int main(void)
   //*****//
   // PAW //
   //*****//
-  PAW_Scene superscena(PAW_Color(0xff,255,255,255));
+  PAW_Scene superscena(PAW_Color(0xff,50,0,200));
 
   PAW_Figure f1, f2, f3;
   PAW_MakeFeatherFromFigure(f1);
