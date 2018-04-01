@@ -1,0 +1,58 @@
+!SESSION 2018-04-01 17:53:07.464 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_152
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=pl_PL
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY com.atollic.truestudio.productmanager 1 0 2018-04-01 17:54:59.739
+!MESSAGE Loading product manager
+
+!ENTRY com.atollic.truestudio.productmanager 1 0 2018-04-01 17:54:59.751
+!MESSAGE OS info: Windows 10, 10.0, x86
+
+!ENTRY TrueSTUDIO 1 0 2018-04-01 17:55:00.489
+!MESSAGE Target: STM32, Version: 9.0.0, Build date: 20180117-1023, Installation dir: /C:/Program Files (x86)/Atollic/TrueSTUDIO for STM32 9.0.0/ide/
+
+!ENTRY TrueSTUDIO 1 0 2018-04-01 17:55:00.493
+!MESSAGE Workspace: C:\Users\bombe\Documents\SR\SR_GIT\main-repo
+
+!ENTRY org.eclipse.jface 2 0 2018-04-01 17:55:01.538
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2018-04-01 17:55:01.538
+!MESSAGE A conflict occurred for ALT+CTRL+T:
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.team.svn.ui.command.EditPropertiesCommand,Show Properties,
+		,
+		Category(org.eclipse.team.svn.ui.command.category,SVN,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@17d8911,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.tm.terminal.connector.local.command.launch,Open Local Terminal on Selection,
+		,
+		Category(org.eclipse.tm.terminal.view.ui.commands.category,Terminal Commands,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@eb276,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY com.atollic.truestudio.integration.processorexpert 0 0 2018-04-01 17:55:04.494
+!MESSAGE Atollic TrueSTUDIO Processor Expert integration is up.
+
+!ENTRY edu.hawaii.ics.csdl.jupiter 1 0 2018-04-01 17:55:04.524
+!MESSAGE Code Review is up.
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-04-01 17:55:04.702
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\bombe'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.cdt.core 1 0 2018-04-01 17:55:40.184
+!MESSAGE Indexed 'PAW' (35 sources, 317 headers) in 13.1 sec: 35,283 declarations; 90,418 references; 1 unresolved inclusions; 153 syntax errors; 71 unresolved names (0.056%)
+
+!ENTRY com.atollic.truestudio.productmanager 1 0 2018-04-01 19:14:36.997
+!MESSAGE Unloading product manager
