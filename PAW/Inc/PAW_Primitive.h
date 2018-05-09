@@ -52,7 +52,7 @@ public:
 	{};
 	virtual void show(PAW_Color& background) final
 	{
-		BSP_LCD_DrawPixel(pos['x'], pos['y'], col.col);
+		BSP_LCD_DrawPixel(pos['x'], pos['y'], col.fullColor);
 	};
 
 	virtual void rotate(PAW_Vector rotate_point, int16_t degrees) final
@@ -118,7 +118,7 @@ public:
 	         dy = y1 - y2;
 	     }
 	     // pierwszy piksel
-	     BSP_LCD_DrawPixel(x, y, col.col);
+	     BSP_LCD_DrawPixel(x, y, col.fullColor);
 	     // oœ wiod¹ca OX
 	     if (dx > dy)
 	     {
@@ -140,7 +140,7 @@ public:
 	                 d += bi;
 	                 x += xi;
 	             }
-	             BSP_LCD_DrawPixel(x, y, col.col);
+	             BSP_LCD_DrawPixel(x, y, col.fullColor);
 	         }
 	     }
 	     // oœ wiod¹ca OY
@@ -164,7 +164,7 @@ public:
 	                 d += bi;
 	                 y += yi;
 	             }
-	             BSP_LCD_DrawPixel(x, y, col.col);
+	             BSP_LCD_DrawPixel(x, y, col.fullColor);
 	         }
 	     }
 	 }
@@ -216,7 +216,7 @@ public:
 		float s = sin(i/180*3.1415);
 		PAW_Matrix R(c, -s, 0, 0, s, c, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
 		PAW_Vector temp = R * p;
-		BSP_LCD_DrawPixel(temp['x'] + center['x'], temp['y'] + center['y'], col.col);
+		BSP_LCD_DrawPixel(temp['x'] + center['x'], temp['y'] + center['y'], col.fullColor);
 		}
 		}
 		else

@@ -306,7 +306,7 @@ public:
 		while(i)
 		{
 			i = i-1;
-			buffer[i] = ascene.background.col;
+			buffer[i] = ascene.background.fullColor;
 		}
 
 		for(uint16_t x = ascene.figs.size(); x >= 0; x--)
@@ -314,7 +314,7 @@ public:
 				for(uint16_t i = 0; i < 16; i++)
 					for(uint16_t j = 0; j < 16; j++) {
 						result = ascene.figs[x].form[y]->send_to_ram(i,j);
-						if (result - ascene.background.col) buffer[i*16+j] = result;
+						if (result - ascene.background.fullColor) buffer[i*16+j] = result;
 					}
 	}
 

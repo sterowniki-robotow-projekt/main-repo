@@ -3,40 +3,41 @@
 class PAW_Color
 {
 public:
-	uint32_t col;
-	uint8_t parts[4];
+	uint32_t fullColor;
+	uint8_t colorComponents[4];
 
 	PAW_Color(void)
 	{
-		this->col = 0xFF000000;
+		this->fullColor = 0xFF000000;
 	}
 
-	PAW_Color(uint8_t T, uint8_t R, uint8_t G, uint8_t B)
+	PAW_Color(uint8_t alpha, uint8_t red, uint8_t green, uint8_t blue)
 	{
-		uint32_t fin = 0;
-		uint32_t temp = T;
+		uint32_t finalColor = 0;
+
+		uint32_t temp = alpha;
 		temp *= 0x01000000;
-		fin += temp;
+		finalColor += temp;
 
-		temp = R;
+		temp = red;
 		temp *= 0x00010000;
-		fin += temp;
+		finalColor += temp;
 
-		temp = G;
+		temp = green;
 		temp *= 0x00000100;
-		fin += temp;
+		finalColor += temp;
 
-		fin += B;
+		finalColor += blue;
 
-		this->col = fin;
+		this->fullColor = finalColor;
 	}
 
 	uint8_t get_chanel(int i)
 	{
-		if (i == 1) { return this->col * 0x00110000; }
-		else if (i == 2) { return this->col * 0x00001100; }
-		else if (i == 3) { return this->col * 0x00000011; }
-		else if (i == 0) { return this->col * 0x11000000; }
+		if (i == 1) { return this->fullColor * 0x00110000; }
+		else if (i == 2) { return this->fullColor * 0x00001100; }
+		else if (i == 3) { return this->fullColor * 0x00000011; }
+		else if (i == 0) { return this->fullColor * 0x11000000; }
 		else return 0;
 	}
 
@@ -48,5 +49,4 @@ public:
 			temp[i] = w2 * this->get_chanel(i) + wage * c.get_chanel(i);
 		return PAW_Color(temp[0], temp[1], temp[2], temp[3]);
 	}
-
 };

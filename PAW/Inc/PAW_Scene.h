@@ -11,7 +11,7 @@ void display_background(PAW_Color cols)
 	{
 		for(uint32_t j = 0; j <= 320; j++)
 		{
-			BSP_LCD_DrawPixel(i, j, cols.col);
+			BSP_LCD_DrawPixel(i, j, cols.fullColor);
 		}
 	}
 }
