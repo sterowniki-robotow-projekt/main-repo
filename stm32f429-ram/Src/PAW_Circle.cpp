@@ -30,7 +30,7 @@ void PAW_Circle::show(const PAW_Color &background) const
 		for (float i = 0; i < 360; ++i)
 		{
 			PAW_Matrix rotation_matrix(4);
-			rotation_matrix.to_rotation_matrix(y, x, i * 2.0f);
+			rotation_matrix.to_rotation_matrix(y, x, i);
 			PAW_Vector temp = rotation_matrix * p;
 
 			BSP_LCD_DrawPixel(temp[x] + center[x], temp[y] + center[y], color.g_value());
@@ -42,7 +42,7 @@ void PAW_Circle::show(const PAW_Color &background) const
 		for (float i = 0; i < 360; i += 2)
 		{
 			PAW_Matrix rotation_matrix(4);
-			rotation_matrix.to_rotation_matrix(y, x, i * 2.0f);
+			rotation_matrix.to_rotation_matrix(y, x, i);
 			PAW_Vector temp = rotation_matrix * p;
 
 			PAW_Vector first(temp[x] + center[x], temp[y] + center[y], 0.0f, 1.0f);

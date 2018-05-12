@@ -103,7 +103,7 @@ void swap(float & a, float & b)
 
 int int_part(const float a)
 {
-	return floor(a);
+	return static_cast<int>(floor(a));
 }
 
 float frac_part(const float a)

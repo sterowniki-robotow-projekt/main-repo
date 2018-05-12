@@ -26,10 +26,10 @@ void PAW_Line::translate(const PAW_Vector translation)
 
 void PAW_Line::show(const PAW_Color &background) const
 {
-	const int32_t x1 = begin[x];
-	const int32_t y1 = begin[y];
-	const int32_t x2 = end[x];
-	const int32_t y2 = end[y];
+	const int32_t x1 = static_cast<int32_t>(begin[x]);
+	const int32_t y1 = static_cast<int32_t>(begin[y]);
+	const int32_t x2 = static_cast<int32_t>(end[x]);
+	const int32_t y2 = static_cast<int32_t>(end[y]);
 
 	//zmienne pomocnicze
 	int32_t d, dx, dy, ai, bi, xi, yi;

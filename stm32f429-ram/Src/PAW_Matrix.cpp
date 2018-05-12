@@ -515,7 +515,7 @@ void PAW_Matrix::to_rotation_matrix(const size_t i, const size_t j, const float 
 {
 	if (i >= 0 && i < size2 && j >= 0 && j < size2)
 	{
-		float rad = 3.1415f * deg / 360.0f;
+		float rad = 3.1415f * deg / 180.0f;
 		PAW_Matrix r_value(size2, 1.0f);
 
 		r_value.s_data(i, i, cos(rad));

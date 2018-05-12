@@ -25,17 +25,16 @@ PAW_Matrix PAW_Figure::generate_projection_matrix() const
 	return projection_matrix;
 }
 
-
-void PAW_Figure::rotate_helper(PAW_Primitive * primi,  const PAW_Matrix projection_matrix)
+void PAW_Figure::rotate_helper(PAW_Primitive * primi, const PAW_Matrix projection_matrix)
 {
 	primi->rotate_helper(projection_matrix);
 }
-void PAW_Figure::projection_helper(PAW_Primitive * primi,  const PAW_Matrix projection_matrix)
+void PAW_Figure::projection_helper(PAW_Primitive * primi, const PAW_Matrix projection_matrix)
 {
 	primi->projection_helper(projection_matrix);
 }
 
-void PAW_Figure::scale_helper(PAW_Primitive * primi,  const float scale)
+void PAW_Figure::scale_helper(PAW_Primitive * primi, const float scale)
 {
 	primi->scale_helper(scale);
 }
@@ -98,17 +97,14 @@ void PAW_Figure::project3D_to_2D()
 	{
 		projection_helper(form[i], P);
 	}
-
-	translate(PAW_Vector(540.0f, 290.0f, 0.0f, 0.0f));
-
 }
 
 void PAW_Figure::rotate3D(const float x_degrees, const float y_degrees, const float z_degrees)
 {
 	PAW_Matrix Rx(4), Ry(4), Rz(4), R(4);
-	Rx.to_rotation_matrix(y, z, 2 * x_degrees);
-	Ry.to_rotation_matrix(z, x, 2 * y_degrees);
-	Rz.to_rotation_matrix(y, x, 2 * z_degrees);
+	Rx.to_rotation_matrix(y, z, x_degrees);
+	Ry.to_rotation_matrix(z, x, y_degrees);
+	Rz.to_rotation_matrix(y, x, z_degrees);
 
 	R = Rz * Ry * Rx;
 	for (size_t i = 0; i < form.size(); ++i)
@@ -120,7 +116,47 @@ void PAW_Figure::rotate3D(const float x_degrees, const float y_degrees, const fl
 void PAW_Figure::scale3D(const float scale)
 {
 	for (size_t i = 0; i < form.size(); ++i)
-		{
-			scale_helper(form[i], 0.5f);
-		}
+	{
+		scale_helper(form[i], scale);
+	}
+}
+
+void PAW_Figure::toCube(const float a_length, const PAW_Color a_color)
+{
+	for(size_t i =0 ; i< form.size(); ++i)
+	{
+		delete form[i];
+	}
+	form.clear();
+
+	const float length = 0.5f * a_length;
+	PAW_Vector P1(-length, -length, length, 1.0f);
+	PAW_Vector P2(length, -length, length, 1.0f);
+	PAW_Vector P3(-length, length, length, 1.0f);
+	PAW_Vector P4(length, length, length, 1.0f);
+	PAW_Vector P5(-length, -length, -length, 1.0f);
+	PAW_Vector P6(length, -length, -length, 1.0f);
+	PAW_Vector P7(-length, length, -length, 1.0f);
+	PAW_Vector P8(length, length, -length, 1.0f);
+
+	push(PAW_Line(P1, P2, a_color));
+	push(PAW_Line(P2, P4, a_color));
+	push(PAW_Line(P4, P3, a_color));
+	push(PAW_Line(P3, P1, a_color));
+	push(PAW_Line(P1, P5, a_color));
+	push(PAW_Line(P5, P7, a_color));
+	push(PAW_Line(P7, P3, a_color));
+	push(PAW_Line(P7, P8, a_color));
+	push(PAW_Line(P5, P6, a_color));
+	push(PAW_Line(P6, P8, a_color));
+	push(PAW_Line(P8, P4, a_color));
+	push(PAW_Line(P6, P2, a_color));
+	push(PAW_Circle(P1, 5.0f, true, PAW_Color(255, 255, 255, 0))); //zolty
+	push(PAW_Circle(P2, 5.0f, true, PAW_Color(255, 255, 0, 0))); //czerwony
+	push(PAW_Circle(P3, 5.0f, true, PAW_Color(255, 0, 255, 0))); //zielony
+	push(PAW_Circle(P4, 5.0f, true, PAW_Color(255, 0, 0, 255))); //niebieski
+	push(PAW_Circle(P5, 5.0f, true, PAW_Color(255, 224, 95, 92))); //rozowy
+	push(PAW_Circle(P6, 5.0f, true, PAW_Color(255, 69, 71, 124))); //fioletowy
+	push(PAW_Circle(P7, 5.0f, true, PAW_Color(255, 77, 255, 255))); //cyan
+	push(PAW_Circle(P8, 5.0f, true, PAW_Color(255, 255, 128, 0))); //pomaranczowy
 }

@@ -3,8 +3,8 @@
 void PAW_MakeStarFromFigure(PAW_Figure & figure, const PAW_Vector position, const float radius, const PAW_Color color)
 {
 	PAW_Vector gw1(0.0f, radius, 0.0f, 1.0f);
-	PAW_Vector gw2(radius * sqrt(3) / 2.0f, radius / 2.0f, 0.0f, 1.0f);
-	PAW_Vector gw3(-radius * sqrt(3) / 2.0f, radius / 2.0f, 0.0f, 1.0f);
+	PAW_Vector gw2(radius * static_cast<float>(sqrt(3)) / 2.0f, radius / 2.0f, 0.0f, 1.0f);
+	PAW_Vector gw3(-radius * static_cast<float>(sqrt(3))  / 2.0f, radius / 2.0f, 0.0f, 1.0f);
 
 	PAW_Line line1(position - gw1, position + gw1, color);
 	PAW_Line line2(position - gw2, position + gw2, color);

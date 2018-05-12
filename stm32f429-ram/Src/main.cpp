@@ -54,7 +54,6 @@
 #include "PAW_Vector.h"
 #include "Exception.h"
 #include "figures.h"
-#include "PAW_3D_Projection.h"
 
 /* USER CODE END Includes */
 
@@ -263,57 +262,25 @@ int main(void)
 	BSP_SDRAM_Init();
 
 	srand(static_cast<unsigned>(time(0)));
-	PAW_Vector P1(60.0f, 220.0f, 140.0f, 1.0f);
-	PAW_Vector P2(180.0f, 220.0f, 140.0f, 1.0f);
-	PAW_Vector P3(60.0f, 100.0f, 140.0f, 1.0f);
-	PAW_Vector P4(180.0f, 100.0f, 140.0f, 1.0f);
-	PAW_Vector P5(60.0f, 220.0f, 20.0f, 1.0f);
-	PAW_Vector P6(180.0f, 220.0f, 20.0f, 1.0f);
-	PAW_Vector P7(60.0f, 100.0f, 20.0f, 1.0f);
-	PAW_Vector P8(180.0f, 100.0f, 20.0f, 1.0f);
-
-	//P1 = project_3D_to_2D(P1);
-	//P2 = project_3D_to_2D(P2);
-	//P3 = project_3D_to_2D(P3);
-	//P4 = project_3D_to_2D(P4);
-	//P5 = project_3D_to_2D(P5);
-	//P6 = project_3D_to_2D(P6);
-	//P7 = project_3D_to_2D(P7);
-	//P8 = project_3D_to_2D(P8);
-
 	PAW_Scene scenka(PAW_Color(0xFF, 255, 255, 255));
+
 	PAW_Figure figurka;
-	figurka.push(PAW_Line(P1, P2, PAW_Color(255, 255, 211, 0)));
-	figurka.push(PAW_Line(P2, P4, PAW_Color(255, 255, 211, 0)));
-	figurka.push(PAW_Line(P4, P3, PAW_Color(255, 255, 211, 0)));
-	figurka.push(PAW_Line(P3, P1, PAW_Color(255, 255, 211, 0)));
-	figurka.push(PAW_Line(P1, P5, PAW_Color(255, 255, 211, 0)));
-	figurka.push(PAW_Line(P5, P7, PAW_Color(255, 255, 211, 0)));
-	figurka.push(PAW_Line(P7, P3, PAW_Color(255, 255, 211, 0)));
-	figurka.push(PAW_Line(P7, P8, PAW_Color(255, 255, 211, 0)));
-	figurka.push(PAW_Line(P5, P6, PAW_Color(255, 255, 211, 0)));
-	figurka.push(PAW_Line(P6, P8, PAW_Color(255, 255, 211, 0)));
-	figurka.push(PAW_Line(P8, P4, PAW_Color(255, 255, 211, 0)));
-	figurka.push(PAW_Line(P6, P2, PAW_Color(255, 255, 211, 0)));
-	figurka.push(PAW_Line(P3, P2, PAW_Color(255, 255, 211, 0)));
-	figurka.push(PAW_Line(P2, P8, PAW_Color(255, 255, 211, 0)));
-	figurka.push(PAW_Line(P8, P5, PAW_Color(255, 255, 211, 0)));
-	figurka.push(PAW_Circle(P1, 10.0f, true, PAW_Color(255, 255, 255, 0)));
-	figurka.push(PAW_Circle(P2, 10.0f, true, PAW_Color(255, 255, 0, 0)));
-	figurka.push(PAW_Circle(P3, 10.0f, true, PAW_Color(255, 0, 255, 0)));
-	figurka.push(PAW_Circle(P4, 10.0f, true, PAW_Color(255, 0, 04, 255)));
-
-	figurka.rotate3D(0.0f,0.0f,90.0f);
-	figurka.project3D_to_2D();
-	figurka.scale3D(0.5f);
-	scenka.push(figurka);
-	scenka.display();
-
+	int i = 0;
 	while (1)
 	{
 		/* USER CODE END WHILE */
-
+		i%=360;
 		/* USER CODE BEGIN 3 */
+		scenka.g_figs().clear();
+		figurka.toCube(60.0f,PAW_Color(255,0,0,0));
+		figurka.scale3D(1.5f);
+		figurka.rotate3D(static_cast<float>(i),static_cast<float>(i),static_cast<float>(i));
+		figurka.project3D_to_2D();
+		figurka.translate(PAW_Vector(120.0f,160.0f,60.0f,1.0f));
+		scenka.push(figurka);
+		scenka.display();
+		i+=10;
+		HAL_Delay(50);
 	}
 	/* USER CODE END 3 */
 

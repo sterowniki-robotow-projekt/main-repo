@@ -11,12 +11,12 @@ class PAW_Figure
 {
 private:
 	std::vector <PAW_Primitive *> form;
-	static constexpr float left = 0.0f;
-	static constexpr float right = 239.0f;
-	static constexpr float top = 0.0f;
-	static constexpr float bottom = 319.0f;
-	static constexpr float near = 160.0f;
-	static constexpr float far = 0.0f;
+	static constexpr float left = -120.0f;
+	static constexpr float right = 120.0f;
+	static constexpr float top = 120.0f;
+	static constexpr float bottom = -120.0f;
+	static constexpr float near = 120.0f;
+	static constexpr float far = -120.0f;
 
 	PAW_Matrix generate_projection_matrix() const;
 	void rotate_helper(PAW_Primitive * primi,  const PAW_Matrix projection_matrix);
@@ -39,4 +39,5 @@ public:
 	void project3D_to_2D();
 	void rotate3D(const float x_degrees, const float y_degrees, const float z_degrees);
 	void scale3D(const float scale);
+	void toCube(const float a_length, const PAW_Color a_color);
 };
