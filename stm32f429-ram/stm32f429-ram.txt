@@ -1,6 +1,6 @@
 Configuration	stm32f429-ram
-STM32CubeMX 	4.19.0
-Date	06/17/2017
+STM32CubeMX 	4.25.0
+Date	06/12/2018
 MCU	STM32F429ZITx
 
 
@@ -175,7 +175,7 @@ SOFTWARE PROJECT
 
 Project Settings : 
 Project Name : stm32f429-ram
-Project Folder : C:\Users\Pauli\Desktop\stm32f429-ram
+Project Folder : C:\Users\bombe\Documents\SR\SR_GIT\main-repo\stm32f429-ram
 Toolchain / IDE : SW4STM32
 Firmware Package Name and Version : STM32Cube FW_F4 V1.14.0
 
@@ -189,8 +189,7 @@ Set all free pins as analog (to optimize the power consumption) : No
 
 
 Toolchains Settings : 
-Compiler Optimizations : Balanced Size/Speed
-
+Compiler Optimizations : 
 
 
 

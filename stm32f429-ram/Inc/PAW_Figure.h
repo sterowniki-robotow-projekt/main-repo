@@ -40,4 +40,6 @@ public:
 	void rotate3D(const float x_degrees, const float y_degrees, const float z_degrees);
 	void scale3D(const float scale);
 	void toCube(const float a_length, const PAW_Color a_color);
+	void toPyramid(const float a_length, const PAW_Color a_color);
+	void toCross(const float a_length, const PAW_Color a_color);
 };

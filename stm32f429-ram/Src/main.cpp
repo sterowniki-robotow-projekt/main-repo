@@ -170,7 +170,7 @@ void led_sdram_error()
 	}
 }
 
-void led_sdram_write_proteced()
+void led_sdram_write_protected()
 {
 	if (hsdram1.State == HAL_SDRAM_STATE_WRITE_PROTECTED)
 	{
@@ -207,7 +207,7 @@ void led_sdram_check()
 	led_sdram_ready(); // G:*-*- R:-*-*
 	led_sdram_busy(); // G:**** R:-*-*
 	led_sdram_error(); // G:---- R:*-*-
-	led_sdram_write_proteced(); // G:**** R:----
+	led_sdram_write_protected(); // G:**** R:----
 	led_sdram_precharged(); // G:*-*- R:*-*-
 }
 
@@ -265,6 +265,8 @@ int main(void)
 	PAW_Scene scenka(PAW_Color(0xFF, 255, 255, 255));
 
 	PAW_Figure figurka;
+	PAW_Figure piramidka;
+	PAW_Figure trzecia;
 	int i = 0;
 	while (1)
 	{
@@ -272,18 +274,33 @@ int main(void)
 		i%=360;
 		/* USER CODE BEGIN 3 */
 		scenka.g_figs().clear();
-		figurka.toCube(60.0f,PAW_Color(255,0,0,0));
+		figurka.toCube(55.0f,PAW_Color(255,0,0,0));
 		figurka.scale3D(1.5f);
 		figurka.rotate3D(static_cast<float>(i),static_cast<float>(i),static_cast<float>(i));
 		figurka.project3D_to_2D();
-		figurka.translate(PAW_Vector(120.0f,160.0f,60.0f,1.0f));
+		figurka.translate(PAW_Vector(60.0f,200.0f,60.0f,1.0f));
 		scenka.push(figurka);
+
+		piramidka.toPyramid(55.0f,PAW_Color(255,0,0,0));
+		piramidka.scale3D(1.5f);
+		piramidka.rotate3D(static_cast<float>(i),static_cast<float>(i),static_cast<float>(i));
+		piramidka.project3D_to_2D();
+		piramidka.translate(PAW_Vector(180.0f,200.0f,60.0f,1.0f));
+		scenka.push(piramidka);
+
+		trzecia.toCross(60.0f,PAW_Color(255,0,0,0));
+		trzecia.scale3D(1.5f);
+		trzecia.rotate3D(static_cast<float>(i),static_cast<float>(i),static_cast<float>(i));
+		trzecia.project3D_to_2D();
+		trzecia.translate(PAW_Vector(120.0f,70.0f,60.0f,1.0f));
+		scenka.push(trzecia);
+
+
 		scenka.display();
-		i+=10;
-		HAL_Delay(50);
+		i+=5;
+		HAL_Delay(20);
 	}
 	/* USER CODE END 3 */
-
 }
 
 /** System Clock Configuration

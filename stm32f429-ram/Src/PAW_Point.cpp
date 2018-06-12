@@ -28,10 +28,10 @@ void PAW_Point::show(const PAW_Color &background) const
 	BSP_LCD_DrawPixel(position[x], position[y], color.g_value());
 }
 
-uint32_t PAW_Point::send_to_ram(const uint16_t x, const uint16_t y) const
-{
-	return uint32_t();
-}
+//uint32_t PAW_Point::send_to_ram(const uint16_t x, const uint16_t y) const
+//{
+//	return uint32_t();
+//}
 
 PAW_Vector PAW_Point::g_position() const
 {

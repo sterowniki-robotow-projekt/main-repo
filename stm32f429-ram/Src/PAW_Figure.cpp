@@ -143,6 +143,7 @@ void PAW_Figure::toCube(const float a_length, const PAW_Color a_color)
 	push(PAW_Line(P2, P4, a_color));
 	push(PAW_Line(P4, P3, a_color));
 	push(PAW_Line(P3, P1, a_color));
+
 	push(PAW_Line(P1, P5, a_color));
 	push(PAW_Line(P5, P7, a_color));
 	push(PAW_Line(P7, P3, a_color));
@@ -151,12 +152,151 @@ void PAW_Figure::toCube(const float a_length, const PAW_Color a_color)
 	push(PAW_Line(P6, P8, a_color));
 	push(PAW_Line(P8, P4, a_color));
 	push(PAW_Line(P6, P2, a_color));
-	push(PAW_Circle(P1, 5.0f, true, PAW_Color(255, 255, 255, 0))); //zolty
-	push(PAW_Circle(P2, 5.0f, true, PAW_Color(255, 255, 0, 0))); //czerwony
-	push(PAW_Circle(P3, 5.0f, true, PAW_Color(255, 0, 255, 0))); //zielony
-	push(PAW_Circle(P4, 5.0f, true, PAW_Color(255, 0, 0, 255))); //niebieski
-	push(PAW_Circle(P5, 5.0f, true, PAW_Color(255, 224, 95, 92))); //rozowy
-	push(PAW_Circle(P6, 5.0f, true, PAW_Color(255, 69, 71, 124))); //fioletowy
-	push(PAW_Circle(P7, 5.0f, true, PAW_Color(255, 77, 255, 255))); //cyan
-	push(PAW_Circle(P8, 5.0f, true, PAW_Color(255, 255, 128, 0))); //pomaranczowy
+	//push(PAW_Circle(P1, 2.0f, true, PAW_Color(255, 255, 255, 0))); //zolty
+	//push(PAW_Circle(P2, 2.0f, true, PAW_Color(255, 255, 0, 0))); //czerwony
+	//push(PAW_Circle(P3, 2.0f, true, PAW_Color(255, 0, 255, 0))); //zielony
+	//push(PAW_Circle(P4, 2.0f, true, PAW_Color(255, 0, 0, 255))); //niebieski
+	//push(PAW_Circle(P5, 2.0f, true, PAW_Color(255, 224, 95, 92))); //rozowy
+	//push(PAW_Circle(P6, 2.0f, true, PAW_Color(255, 69, 71, 124))); //fioletowy
+	//push(PAW_Circle(P7, 2.0f, true, PAW_Color(255, 77, 255, 255))); //cyan
+	//push(PAW_Circle(P8, 2.0f, true, PAW_Color(255, 255, 128, 0))); //pomaranczowy
+}
+
+void PAW_Figure::toPyramid(const float a_length, const PAW_Color a_color)
+{
+	for(size_t i =0 ; i< form.size(); ++i)
+	{
+		delete form[i];
+	}
+	form.clear();
+
+	const float length = 0.5f * a_length;
+	PAW_Vector P1(-length, -length, -length, 1.0f);
+	PAW_Vector P2(-length,-length, length, 1.0f);
+	PAW_Vector P3(length, -length, -length, 1.0f);
+	PAW_Vector P4(length, -length, length, 1.0f);
+	PAW_Vector P5(0, length, 0, 1.0f);
+
+
+	push(PAW_Line(P1, P2, a_color));
+	push(PAW_Line(P2, P4, a_color));
+	push(PAW_Line(P4, P3, a_color));
+	push(PAW_Line(P3, P1, a_color));
+
+	push(PAW_Line(P5, P1, a_color));
+	push(PAW_Line(P5, P2, a_color));
+	push(PAW_Line(P5, P3, a_color));
+	push(PAW_Line(P5, P4, a_color));
+
+	//push(PAW_Circle(P1, 5.0f, true, PAW_Color(255, 255, 255, 0))); //zolty
+	//push(PAW_Circle(P2, 5.0f, true, PAW_Color(255, 255, 0, 0))); //czerwony
+	//push(PAW_Circle(P3, 5.0f, true, PAW_Color(255, 0, 255, 0))); //zielony
+	//push(PAW_Circle(P4, 5.0f, true, PAW_Color(255, 0, 0, 255))); //niebieski
+	//push(PAW_Circle(P5, 5.0f, true, PAW_Color(255, 224, 95, 92))); //rozowy
+	//push(PAW_Circle(P6, 5.0f, true, PAW_Color(255, 69, 71, 124))); //fioletowy
+	//push(PAW_Circle(P7, 5.0f, true, PAW_Color(255, 77, 255, 255))); //cyan
+	//push(PAW_Circle(P8, 5.0f, true, PAW_Color(255, 255, 128, 0))); //pomaranczowy
+}
+
+void PAW_Figure::toCross(const float a_length, const PAW_Color a_color)
+{
+	for(size_t i =0 ; i< form.size(); ++i)
+	{
+		delete form[i];
+	}
+	form.clear();
+
+	const float length = 0.5f * a_length;
+
+	PAW_Vector P1(-0.5f*length, -length, -0.5f*length, 1.0f);
+	PAW_Vector P2(-0.5f*length,-length, 0.5f*length, 1.0f);
+	PAW_Vector P3(0.5f*length, -length, -0.5f*length, 1.0f);
+	PAW_Vector P4(0.5f*length, -length, 0.5f*length, 1.0f);
+
+	PAW_Vector P5(-0.5f*length, -0.5f*length, -0.5f*length, 1.0f);
+	PAW_Vector P6(-0.5f*length,-0.5f*length, 0.5f*length, 1.0f);
+	PAW_Vector P7(0.5f*length, -0.5f*length, -0.5f*length, 1.0f);
+	PAW_Vector P8(0.5f*length, -0.5f*length, 0.5f*length, 1.0f);
+
+	PAW_Vector P9(-length, -0.5f*length, 0.5f*length, 1.0f);
+	PAW_Vector P10(length, -0.5f*length, 0.5f*length, 1.0f);
+
+	PAW_Vector P11(-length, 0, 0.5f*length, 1.0f);
+	PAW_Vector P12(length, 0, 0.5f*length, 1.0f);
+
+	PAW_Vector P14(-length, -0.5f*length, -0.5f*length, 1.0f);
+	PAW_Vector P13(length, -0.5f*length, -0.5f*length, 1.0f);
+
+	PAW_Vector P15(-length, 0, -0.5f*length, 1.0f);
+	PAW_Vector P16(length, 0, -0.5f*length, 1.0f);
+
+	PAW_Vector P17(-0.5f*length, 0.0f*length, -0.5f*length, 1.0f);
+	PAW_Vector P18(0.5f*length, 0.0f*length, -0.5f*length, 1.0f);
+
+	PAW_Vector P19(-0.5f*length,-0.0f*length, 0.5f*length, 1.0f);
+	PAW_Vector P20(0.5f*length, -0.0f*length, 0.5f*length, 1.0f);
+
+	PAW_Vector P23(-0.5f*length, 0.5f*length, -0.5f*length, 1.0f);
+	PAW_Vector P24(0.5f*length, 0.5f*length, -0.5f*length, 1.0f);
+
+	PAW_Vector P21(-0.5f*length,0.5f*length, 0.5f*length, 1.0f);
+	PAW_Vector P22(0.5f*length, 0.5f*length, 0.5f*length, 1.0f);
+
+
+
+
+
+
+
+
+	//PAW_Vector P3(length, -length, -length, 1.0f);
+	//PAW_Vector P4(length, -length, length, 1.0f);
+
+	push(PAW_Line(P1, P3, a_color));
+	push(PAW_Line(P2, P4, a_color));
+	push(PAW_Line(P3, P4, a_color));
+	push(PAW_Line(P2, P1, a_color));
+	push(PAW_Line(P1, P5, a_color));
+	push(PAW_Line(P2, P6, a_color));
+	push(PAW_Line(P3, P7, a_color));
+	push(PAW_Line(P4, P8, a_color));
+	push(PAW_Line(P6, P9, a_color));
+	push(PAW_Line(P8, P10, a_color));
+	push(PAW_Line(P11, P9, a_color));
+	push(PAW_Line(P12, P10, a_color));
+	push(PAW_Line(P14, P5, a_color));
+	push(PAW_Line(P13, P7, a_color));
+	push(PAW_Line(P14, P15, a_color));
+	push(PAW_Line(P13, P16, a_color));
+	push(PAW_Line(P15, P11, a_color));
+	push(PAW_Line(P16, P12, a_color));
+	push(PAW_Line(P9, P14, a_color));
+	push(PAW_Line(P13, P10, a_color));
+	push(PAW_Line(P15, P17, a_color));
+	push(PAW_Line(P16, P18, a_color));
+	push(PAW_Line(P11, P19, a_color));
+	push(PAW_Line(P12, P20, a_color));
+	push(PAW_Line(P17, P23, a_color));
+	push(PAW_Line(P18, P24, a_color));
+	push(PAW_Line(P19, P21, a_color));
+	push(PAW_Line(P22, P20, a_color));
+	push(PAW_Line(P23, P21, a_color));
+	push(PAW_Line(P24, P22, a_color));
+	push(PAW_Line(P22, P21, a_color));
+	push(PAW_Line(P23, P24, a_color));
+
+
+	//push(PAW_Line(P5, P1, a_color));
+	//push(PAW_Line(P5, P2, a_color));
+	//push(PAW_Line(P5, P3, a_color));
+	//push(PAW_Line(P5, P4, a_color));
+
+	//push(PAW_Circle(P1, 5.0f, true, PAW_Color(255, 255, 255, 0))); //zolty
+	//push(PAW_Circle(P2, 5.0f, true, PAW_Color(255, 255, 0, 0))); //czerwony
+	//push(PAW_Circle(P3, 5.0f, true, PAW_Color(255, 0, 255, 0))); //zielony
+	//push(PAW_Circle(P4, 5.0f, true, PAW_Color(255, 0, 0, 255))); //niebieski
+	//push(PAW_Circle(P5, 5.0f, true, PAW_Color(255, 224, 95, 92))); //rozowy
+	//push(PAW_Circle(P6, 5.0f, true, PAW_Color(255, 69, 71, 124))); //fioletowy
+	//push(PAW_Circle(P7, 5.0f, true, PAW_Color(255, 77, 255, 255))); //cyan
+	//push(PAW_Circle(P8, 5.0f, true, PAW_Color(255, 255, 128, 0))); //pomaranczowy
 }
