@@ -1,8 +1,7 @@
 #include "PAW_Line.h"
 
 PAW_Line::PAW_Line(const PAW_Vector n_begin, const PAW_Vector n_end, const PAW_Color n_color) :
-		PAW_Primitive(false, n_color), begin(n_begin), end(n_end)
-{
+		PAW_Primitive(false, n_color), begin(n_begin), end(n_end){
 }
 
 PAW_Line::~PAW_Line()

@@ -42,4 +42,9 @@ public:
 	void toCube(const float a_length, const PAW_Color a_color);
 	void toPyramid(const float a_length, const PAW_Color a_color);
 	void toCross(const float a_length, const PAW_Color a_color);
+	void toExperimental(const float a_length, const PAW_Color a_color);
+
+	void paint(const PAW_Line&, const PAW_Line&, const PAW_Color& );
 };
+
+

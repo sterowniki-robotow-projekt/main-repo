@@ -5,6 +5,8 @@ class PAW_Line : public PAW_Primitive
 {
 private:
 	PAW_Vector begin, end;
+	//PAW_Vector* all_pixels;
+
 
 public:
 	PAW_Line(const PAW_Vector n_begin, const PAW_Vector n_end, const PAW_Color n_color);

@@ -261,40 +261,52 @@ int main(void)
 
 	BSP_SDRAM_Init();
 
+	PAW_Color green(255,85,255,51);
+	PAW_Color black(255,0,0,0);
+	PAW_Color white(255,255,255,255);
+	PAW_Color red(255,232,23,23);
+	PAW_Color blue(255,23,127,232);
+	PAW_Color yellow(255,232,210,23);
+
 	srand(static_cast<unsigned>(time(0)));
 	PAW_Scene scenka(PAW_Color(0xFF, 255, 255, 255));
 
+	PAW_Figure experyment;
 	PAW_Figure figurka;
-	PAW_Figure piramidka;
 	PAW_Figure trzecia;
+
 	int i = 0;
 	while (1)
 	{
 		/* USER CODE END WHILE */
-		i%=360;
+
+
 		/* USER CODE BEGIN 3 */
+		i%=360;
 		scenka.g_figs().clear();
-		figurka.toCube(55.0f,PAW_Color(255,0,0,0));
+
+
+		figurka.toPyramid(35.0f,black);
 		figurka.scale3D(1.5f);
 		figurka.rotate3D(static_cast<float>(i),static_cast<float>(i),static_cast<float>(i));
 		figurka.project3D_to_2D();
 		figurka.translate(PAW_Vector(60.0f,200.0f,60.0f,1.0f));
 		scenka.push(figurka);
 
-		piramidka.toPyramid(55.0f,PAW_Color(255,0,0,0));
-		piramidka.scale3D(1.5f);
-		piramidka.rotate3D(static_cast<float>(i),static_cast<float>(i),static_cast<float>(i));
-		piramidka.project3D_to_2D();
-		piramidka.translate(PAW_Vector(180.0f,200.0f,60.0f,1.0f));
-		scenka.push(piramidka);
 
-		trzecia.toCross(60.0f,PAW_Color(255,0,0,0));
+		experyment.toExperimental(35.0f,black);
+		experyment.scale3D(1.5f);
+		experyment.rotate3D(static_cast<float>(i),static_cast<float>(i),static_cast<float>(i));
+		experyment.project3D_to_2D();
+		experyment.translate(PAW_Vector(120.0f,100.0f,60.0f,1.0f));
+		scenka.push(experyment);
+
+		trzecia.toCube(35.0f,black);
 		trzecia.scale3D(1.5f);
 		trzecia.rotate3D(static_cast<float>(i),static_cast<float>(i),static_cast<float>(i));
 		trzecia.project3D_to_2D();
-		trzecia.translate(PAW_Vector(120.0f,70.0f,60.0f,1.0f));
+		trzecia.translate(PAW_Vector(150.0f,200.0f,60.0f,1.0f));
 		scenka.push(trzecia);
-
 
 		scenka.display();
 		i+=5;

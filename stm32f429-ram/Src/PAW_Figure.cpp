@@ -121,46 +121,6 @@ void PAW_Figure::scale3D(const float scale)
 	}
 }
 
-void PAW_Figure::toCube(const float a_length, const PAW_Color a_color)
-{
-	for(size_t i =0 ; i< form.size(); ++i)
-	{
-		delete form[i];
-	}
-	form.clear();
-
-	const float length = 0.5f * a_length;
-	PAW_Vector P1(-length, -length, length, 1.0f);
-	PAW_Vector P2(length, -length, length, 1.0f);
-	PAW_Vector P3(-length, length, length, 1.0f);
-	PAW_Vector P4(length, length, length, 1.0f);
-	PAW_Vector P5(-length, -length, -length, 1.0f);
-	PAW_Vector P6(length, -length, -length, 1.0f);
-	PAW_Vector P7(-length, length, -length, 1.0f);
-	PAW_Vector P8(length, length, -length, 1.0f);
-
-	push(PAW_Line(P1, P2, a_color));
-	push(PAW_Line(P2, P4, a_color));
-	push(PAW_Line(P4, P3, a_color));
-	push(PAW_Line(P3, P1, a_color));
-
-	push(PAW_Line(P1, P5, a_color));
-	push(PAW_Line(P5, P7, a_color));
-	push(PAW_Line(P7, P3, a_color));
-	push(PAW_Line(P7, P8, a_color));
-	push(PAW_Line(P5, P6, a_color));
-	push(PAW_Line(P6, P8, a_color));
-	push(PAW_Line(P8, P4, a_color));
-	push(PAW_Line(P6, P2, a_color));
-	//push(PAW_Circle(P1, 2.0f, true, PAW_Color(255, 255, 255, 0))); //zolty
-	//push(PAW_Circle(P2, 2.0f, true, PAW_Color(255, 255, 0, 0))); //czerwony
-	//push(PAW_Circle(P3, 2.0f, true, PAW_Color(255, 0, 255, 0))); //zielony
-	//push(PAW_Circle(P4, 2.0f, true, PAW_Color(255, 0, 0, 255))); //niebieski
-	//push(PAW_Circle(P5, 2.0f, true, PAW_Color(255, 224, 95, 92))); //rozowy
-	//push(PAW_Circle(P6, 2.0f, true, PAW_Color(255, 69, 71, 124))); //fioletowy
-	//push(PAW_Circle(P7, 2.0f, true, PAW_Color(255, 77, 255, 255))); //cyan
-	//push(PAW_Circle(P8, 2.0f, true, PAW_Color(255, 255, 128, 0))); //pomaranczowy
-}
 
 void PAW_Figure::toPyramid(const float a_length, const PAW_Color a_color)
 {
@@ -177,16 +137,38 @@ void PAW_Figure::toPyramid(const float a_length, const PAW_Color a_color)
 	PAW_Vector P4(length, -length, length, 1.0f);
 	PAW_Vector P5(0, length, 0, 1.0f);
 
+	PAW_Vector S1(-50.0f,-20.0f,-10.0f,1.0f);
+	PAW_Vector S2(20.0f,10.0f,50.0f,1.0f);
+	PAW_Vector S3(0,0,0,1.0f);
 
-	push(PAW_Line(P1, P2, a_color));
-	push(PAW_Line(P2, P4, a_color));
-	push(PAW_Line(P4, P3, a_color));
-	push(PAW_Line(P3, P1, a_color));
+	PAW_Line SL1(S3,S1,a_color);
+	PAW_Line SL2(S2,S1,a_color);
 
-	push(PAW_Line(P5, P1, a_color));
-	push(PAW_Line(P5, P2, a_color));
-	push(PAW_Line(P5, P3, a_color));
-	push(PAW_Line(P5, P4, a_color));
+	PAW_Line L1(P1, P2, a_color);
+	PAW_Line L2(P2, P4, a_color);
+	PAW_Line L3(P4, P3, a_color);
+	PAW_Line L4(P3, P1, a_color);
+
+	PAW_Line L5(P5, P1, a_color);
+	PAW_Line L6(P5, P2, a_color);
+	PAW_Line L7(P5, P3, a_color);
+	PAW_Line L8(P5, P4, a_color);
+
+	PAW_Color red(255,232,23,23);
+	PAW_Color blue(255,23,127,232);
+
+	paint(L7,L8,red);
+
+
+	push(L1);
+	push(L2);
+	push(L3);
+	push(L4);
+
+	push(L5);
+	push(L6);
+	push(L7);
+	push(L8);
 
 	//push(PAW_Circle(P1, 5.0f, true, PAW_Color(255, 255, 255, 0))); //zolty
 	//push(PAW_Circle(P2, 5.0f, true, PAW_Color(255, 255, 0, 0))); //czerwony
@@ -243,15 +225,6 @@ void PAW_Figure::toCross(const float a_length, const PAW_Color a_color)
 	PAW_Vector P22(0.5f*length, 0.5f*length, 0.5f*length, 1.0f);
 
 
-
-
-
-
-
-
-	//PAW_Vector P3(length, -length, -length, 1.0f);
-	//PAW_Vector P4(length, -length, length, 1.0f);
-
 	push(PAW_Line(P1, P3, a_color));
 	push(PAW_Line(P2, P4, a_color));
 	push(PAW_Line(P3, P4, a_color));
@@ -285,11 +258,58 @@ void PAW_Figure::toCross(const float a_length, const PAW_Color a_color)
 	push(PAW_Line(P22, P21, a_color));
 	push(PAW_Line(P23, P24, a_color));
 
+}
 
-	//push(PAW_Line(P5, P1, a_color));
-	//push(PAW_Line(P5, P2, a_color));
-	//push(PAW_Line(P5, P3, a_color));
-	//push(PAW_Line(P5, P4, a_color));
+
+void PAW_Figure::toCube(const float a_length, const PAW_Color a_color)
+{
+	for(size_t i =0 ; i< form.size(); ++i)
+	{
+		delete form[i];
+	}
+	form.clear();
+
+
+
+	const float length = 0.5f * a_length;
+
+	PAW_Vector P1(-length, -length, length, 1.0f);
+	PAW_Vector P2(length, -length, length, 1.0f);
+	PAW_Vector P3(-length, length, length, 1.0f);
+	PAW_Vector P4(length, length, length, 1.0f);
+	PAW_Vector P5(-length, -length, -length, 1.0f);
+	PAW_Vector P6(length, -length, -length, 1.0f);
+	PAW_Vector P7(-length, length, -length, 1.0f);
+	PAW_Vector P8(length, length, -length, 1.0f);
+
+
+	PAW_Line L1(P1, P2, a_color);
+	PAW_Line L2(P2, P4, a_color);
+	PAW_Line L3(P3, P4, a_color);
+	PAW_Line L4(P3, P1, a_color);
+
+	PAW_Color side_color(255,85,255,51);
+	paint(L1,L3,side_color);
+
+	push(L1);
+	push(L2);
+	push(L3);
+	push(L4);
+
+	push(PAW_Line(P1, P5, a_color));
+	push(PAW_Line(P5, P7, a_color));
+	push(PAW_Line(P7, P3, a_color));
+	push(PAW_Line(P7, P8, a_color));
+	push(PAW_Line(P5, P6, a_color));
+	push(PAW_Line(P6, P8, a_color));
+	push(PAW_Line(P8, P4, a_color));
+	push(PAW_Line(P6, P2, a_color));
+
+
+
+
+
+
 
 	//push(PAW_Circle(P1, 5.0f, true, PAW_Color(255, 255, 255, 0))); //zolty
 	//push(PAW_Circle(P2, 5.0f, true, PAW_Color(255, 255, 0, 0))); //czerwony
@@ -300,3 +320,137 @@ void PAW_Figure::toCross(const float a_length, const PAW_Color a_color)
 	//push(PAW_Circle(P7, 5.0f, true, PAW_Color(255, 77, 255, 255))); //cyan
 	//push(PAW_Circle(P8, 5.0f, true, PAW_Color(255, 255, 128, 0))); //pomaranczowy
 }
+
+
+void PAW_Figure::toExperimental(const float a_length, const PAW_Color a_color)
+{
+	for(size_t i =0 ; i< form.size(); ++i)
+	{
+		delete form[i];
+	}
+	form.clear();
+
+
+
+	const float length = 0.5f * a_length;
+
+	PAW_Vector P1(-length, -length, length, 1.0f);
+	PAW_Vector P2(length, -length, length, 1.0f);
+	PAW_Vector P3(-length, length, length, 1.0f);
+	PAW_Vector P4(length, length, length, 1.0f);
+	PAW_Vector P5(-length, -length, -length, 1.0f);
+	PAW_Vector P6(length, -length, -length, 1.0f);
+	PAW_Vector P7(-length, length, -length, 1.0f);
+	PAW_Vector P8(length, length, -length, 1.0f);
+
+
+	PAW_Line L1(P1, P2, a_color);
+	PAW_Line L2(P2, P4, a_color);
+	PAW_Line L3(P3, P4, a_color);
+	PAW_Line L4(P1, P3, a_color);
+
+	PAW_Color side_color(255,15,20,200);
+	paint(L1,L4,side_color);
+
+	push(L1);
+	push(L2);
+	push(L3);
+	push(L4);
+
+	push(PAW_Line(P1, P5, a_color));
+	push(PAW_Line(P5, P7, a_color));
+	push(PAW_Line(P7, P3, a_color));
+	push(PAW_Line(P7, P8, a_color));
+	push(PAW_Line(P5, P6, a_color));
+	push(PAW_Line(P6, P8, a_color));
+	push(PAW_Line(P8, P4, a_color));
+	push(PAW_Line(P6, P2, a_color));
+
+
+}
+
+
+
+
+
+
+void PAW_Figure::paint(const PAW_Line& line1, const PAW_Line& line2, const PAW_Color& clr){
+
+	PAW_Vector* vec_ptr1 = NULL;
+	PAW_Vector* vec_ptr2 = NULL;
+
+	// d to beda roznice, delty itd.
+	float dx1, dx2, dy1, dy2, dz1, dz2;
+	// c to kursory albo iteratory
+	float cx1, cy1, cz1, cx2, cy2, cz2;
+
+	//m to milestone'y, punkty zaczepne dla linii tworzacych sciane
+	float mx1,mx2,my1,my2,mz1,mz2;
+
+	// pomocnicze
+	int loopint = 0;
+
+	cx1 = line1.g_begin()[x];
+	cy1 = line1.g_begin()[y];
+	cz1 = line1.g_begin()[z];
+
+	cx2 = line2.g_begin()[x];
+	cy2 = line2.g_begin()[y];
+	cz2 = line2.g_begin()[z];
+
+
+	//DISTANCES ON LINE 1
+	 dx1 = line1.g_end()[x] - line1.g_begin()[x];
+	 dy1 = line1.g_end()[y] - line1.g_begin()[y];
+	 dz1 = line1.g_end()[z] - line1.g_begin()[z];
+
+
+	//DISTANCES ON LINE 2
+	 dx2 = line2.g_end()[x] - line2.g_begin()[x];
+	 dy2 = line2.g_end()[y] - line2.g_begin()[y];
+	 dz2 = line2.g_end()[z] - line2.g_begin()[z];
+
+	// dlugosci wektorow
+	float length1 = sqrt(dx1*dx1 + dy1*dy1 + dz1*dz1);
+	float length2 = sqrt(dx2*dx2 + dy2*dy2 + dz2*dz2);
+
+	int density = 2; // jak gesta sciana? 2 oznacza linie co 0.5f
+
+	loopint = static_cast<int>(length1);
+
+	 // MILESTONE'Y DLA KAZDEGO KURSORA
+	 mx1 = dx1/(density*loopint);
+	 my1 = dy1/(density*loopint);
+	 mz1 = dz1/(density*loopint);
+	 mx2 = dx2/(density*loopint);
+	 my2 = dy2/(density*loopint);
+	 mz2 = dz2/(density*loopint);
+
+
+	 // jesli rozne dlugosci - nic sie nie dzieje
+	if ((length1 == length2)&&(length1 != 0.0f)) {
+
+
+		for(int i = 0; i < density*loopint; i++) {
+
+			vec_ptr1 = new PAW_Vector(cx1,cy1,cz1,1.0f);
+			vec_ptr2 = new PAW_Vector(cx2,cy2,cz2,1.0f);
+
+			push(PAW_Line(*vec_ptr1,*vec_ptr2,clr));
+
+			//przesuniecie kursorow
+			cx1 += mx1;
+			cy1 += my1;
+			cz1 += mz1;
+			cx2 += mx2;
+			cy2 += my2;
+			cz2 += mz2;
+
+			delete vec_ptr1;
+			delete vec_ptr2;
+		}
+	}
+}
+
+
+
