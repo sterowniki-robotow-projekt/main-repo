@@ -6601,3 +6601,210 @@ Output sent to: stm32f429-ram.list
 Generate listing file done
 Generate build reports done
 Info: Parallel threads used: 1
+16:45:33 **** Incremental Build of configuration Debug for project stm32f429-ram ****
+Info: Internal Builder is used for build
+arm-atollic-eabi-g++ -c ..\Src\PAW_Figure.cpp -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -std=gnu++11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32F429xx -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\stm32f429-ram\Inc -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\stm32f429-ram\Drivers\STM32F4xx_HAL_Driver\Inc -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\stm32f429-ram\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\stm32f429-ram\Drivers\CMSIS\Device\ST\STM32F4xx\Include -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\stm32f429-ram\Drivers\CMSIS\Include -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\stm32f429-ram\Debug -O0 -ffunction-sections -fno-rtti -fno-exceptions -g3 -fstack-usage -Wall -fno-threadsafe-statics -o Src\PAW_Figure.o 
+arm-atollic-eabi-g++ -o stm32f429-ram.elf Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma2d.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dsi.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_ltdc.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_ltdc_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_sdram.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_fmc.o Src\Exception.o Src\PAW_3D_Projection.o Src\PAW_Circle.o Src\PAW_Color.o Src\PAW_Figure.o Src\PAW_Interface.o Src\PAW_Line.o Src\PAW_Math.o Src\PAW_Matrix.o Src\PAW_Point.o Src\PAW_Primitive.o Src\PAW_Scene.o Src\PAW_Vector.o Src\figures.o Src\ili9341.o Src\main.o Src\stm32f429i_discovery.o Src\stm32f429i_discovery_eeprom.o Src\stm32f429i_discovery_lcd.o Src\stm32f429i_discovery_sdram.o Src\stm32f4xx_hal_msp.o Src\stm32f4xx_it.o Src\system_stm32f4xx.o startup\startup_stm32f429xx.o -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -T../STM32F429ZITx_FLASH.ld -specs=nosys.specs -static -Wl,-cref,-u,Reset_Handler -Wl,-Map=stm32f429-ram.map -Wl,--gc-sections -Wl,--defsym=malloc_getpagesize_P=0x1000 -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group 
+C:\Program Files (x86)\Atollic\TrueSTUDIO for STM32 9.0.0\ide\jre\bin\java -jar C:\Program Files (x86)\Atollic\TrueSTUDIO for STM32 9.0.0\Tools\arm-atollic-reports.jar convert hex sizeinfo list stm32f429-ram.elf 
+Generate build reports...
+Converting build output to hex
+Output sent to: stm32f429-ram.hex
+Converting build output to hex done
+Print size information
+   text	   data	    bss	    dec	    hex	filename
+ 338812	   2088	   8744	 349644	  555cc	stm32f429-ram.elf
+Print size information done
+Generate listing file
+Output sent to: stm32f429-ram.list
+Generate listing file done
+Generate build reports done
+Info: Parallel threads used: 1
+11:40:16 **** Incremental Build of configuration Debug for project stm32f429-ram ****
+Info: Internal Builder is used for build
+arm-atollic-eabi-g++ -c ..\Src\PAW_Figure.cpp -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -std=gnu++11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32F429xx -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\stm32f429-ram\Inc -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\stm32f429-ram\Drivers\STM32F4xx_HAL_Driver\Inc -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\stm32f429-ram\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\stm32f429-ram\Drivers\CMSIS\Device\ST\STM32F4xx\Include -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\stm32f429-ram\Drivers\CMSIS\Include -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\stm32f429-ram\Debug -O0 -ffunction-sections -fno-rtti -fno-exceptions -g3 -fstack-usage -Wall -fno-threadsafe-statics -o Src\PAW_Figure.o 
+arm-atollic-eabi-g++ -o stm32f429-ram.elf Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma2d.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dsi.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_ltdc.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_ltdc_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_sdram.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_fmc.o Src\Exception.o Src\PAW_3D_Projection.o Src\PAW_Circle.o Src\PAW_Color.o Src\PAW_Figure.o Src\PAW_Interface.o Src\PAW_Line.o Src\PAW_Math.o Src\PAW_Matrix.o Src\PAW_Point.o Src\PAW_Primitive.o Src\PAW_Scene.o Src\PAW_Vector.o Src\figures.o Src\ili9341.o Src\main.o Src\stm32f429i_discovery.o Src\stm32f429i_discovery_eeprom.o Src\stm32f429i_discovery_lcd.o Src\stm32f429i_discovery_sdram.o Src\stm32f4xx_hal_msp.o Src\stm32f4xx_it.o Src\system_stm32f4xx.o startup\startup_stm32f429xx.o -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -T../STM32F429ZITx_FLASH.ld -specs=nosys.specs -static -Wl,-cref,-u,Reset_Handler -Wl,-Map=stm32f429-ram.map -Wl,--gc-sections -Wl,--defsym=malloc_getpagesize_P=0x1000 -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group 
+C:\Program Files (x86)\Atollic\TrueSTUDIO for STM32 9.0.0\ide\jre\bin\java -jar C:\Program Files (x86)\Atollic\TrueSTUDIO for STM32 9.0.0\Tools\arm-atollic-reports.jar convert hex sizeinfo list stm32f429-ram.elf 
+Generate build reports...
+Converting build output to hex
+Output sent to: stm32f429-ram.hex
+Converting build output to hex done
+Print size information
+   text	   data	    bss	    dec	    hex	filename
+ 339180	   2088	   8744	 350012	  5573c	stm32f429-ram.elf
+Print size information done
+Generate listing file
+Output sent to: stm32f429-ram.list
+Generate listing file done
+Generate build reports done
+Info: Parallel threads used: 1
+11:41:50 **** Incremental Build of configuration Debug for project stm32f429-ram ****
+Info: Internal Builder is used for build
+arm-atollic-eabi-g++ -c ..\Src\PAW_Figure.cpp -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -std=gnu++11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32F429xx -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\stm32f429-ram\Inc -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\stm32f429-ram\Drivers\STM32F4xx_HAL_Driver\Inc -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\stm32f429-ram\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\stm32f429-ram\Drivers\CMSIS\Device\ST\STM32F4xx\Include -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\stm32f429-ram\Drivers\CMSIS\Include -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\stm32f429-ram\Debug -O0 -ffunction-sections -fno-rtti -fno-exceptions -g3 -fstack-usage -Wall -fno-threadsafe-statics -o Src\PAW_Figure.o 
+arm-atollic-eabi-g++ -o stm32f429-ram.elf Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma2d.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dsi.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_ltdc.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_ltdc_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_sdram.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_fmc.o Src\Exception.o Src\PAW_3D_Projection.o Src\PAW_Circle.o Src\PAW_Color.o Src\PAW_Figure.o Src\PAW_Interface.o Src\PAW_Line.o Src\PAW_Math.o Src\PAW_Matrix.o Src\PAW_Point.o Src\PAW_Primitive.o Src\PAW_Scene.o Src\PAW_Vector.o Src\figures.o Src\ili9341.o Src\main.o Src\stm32f429i_discovery.o Src\stm32f429i_discovery_eeprom.o Src\stm32f429i_discovery_lcd.o Src\stm32f429i_discovery_sdram.o Src\stm32f4xx_hal_msp.o Src\stm32f4xx_it.o Src\system_stm32f4xx.o startup\startup_stm32f429xx.o -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -T../STM32F429ZITx_FLASH.ld -specs=nosys.specs -static -Wl,-cref,-u,Reset_Handler -Wl,-Map=stm32f429-ram.map -Wl,--gc-sections -Wl,--defsym=malloc_getpagesize_P=0x1000 -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group 
+C:\Program Files (x86)\Atollic\TrueSTUDIO for STM32 9.0.0\ide\jre\bin\java -jar C:\Program Files (x86)\Atollic\TrueSTUDIO for STM32 9.0.0\Tools\arm-atollic-reports.jar convert hex sizeinfo list stm32f429-ram.elf 
+Generate build reports...
+Converting build output to hex
+Output sent to: stm32f429-ram.hex
+Converting build output to hex done
+Print size information
+   text	   data	    bss	    dec	    hex	filename
+ 339180	   2088	   8744	 350012	  5573c	stm32f429-ram.elf
+Print size information done
+Generate listing file
+Output sent to: stm32f429-ram.list
+Generate listing file done
+Generate build reports done
+Info: Parallel threads used: 1
+11:42:45 **** Incremental Build of configuration Debug for project stm32f429-ram ****
+Info: Internal Builder is used for build
+arm-atollic-eabi-g++ -c ..\Src\PAW_Figure.cpp -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -std=gnu++11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32F429xx -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\stm32f429-ram\Inc -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\stm32f429-ram\Drivers\STM32F4xx_HAL_Driver\Inc -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\stm32f429-ram\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\stm32f429-ram\Drivers\CMSIS\Device\ST\STM32F4xx\Include -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\stm32f429-ram\Drivers\CMSIS\Include -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\stm32f429-ram\Debug -O0 -ffunction-sections -fno-rtti -fno-exceptions -g3 -fstack-usage -Wall -fno-threadsafe-statics -o Src\PAW_Figure.o 
+arm-atollic-eabi-g++ -o stm32f429-ram.elf Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma2d.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dsi.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_ltdc.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_ltdc_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_sdram.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_fmc.o Src\Exception.o Src\PAW_3D_Projection.o Src\PAW_Circle.o Src\PAW_Color.o Src\PAW_Figure.o Src\PAW_Interface.o Src\PAW_Line.o Src\PAW_Math.o Src\PAW_Matrix.o Src\PAW_Point.o Src\PAW_Primitive.o Src\PAW_Scene.o Src\PAW_Vector.o Src\figures.o Src\ili9341.o Src\main.o Src\stm32f429i_discovery.o Src\stm32f429i_discovery_eeprom.o Src\stm32f429i_discovery_lcd.o Src\stm32f429i_discovery_sdram.o Src\stm32f4xx_hal_msp.o Src\stm32f4xx_it.o Src\system_stm32f4xx.o startup\startup_stm32f429xx.o -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -T../STM32F429ZITx_FLASH.ld -specs=nosys.specs -static -Wl,-cref,-u,Reset_Handler -Wl,-Map=stm32f429-ram.map -Wl,--gc-sections -Wl,--defsym=malloc_getpagesize_P=0x1000 -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group 
+C:\Program Files (x86)\Atollic\TrueSTUDIO for STM32 9.0.0\ide\jre\bin\java -jar C:\Program Files (x86)\Atollic\TrueSTUDIO for STM32 9.0.0\Tools\arm-atollic-reports.jar convert hex sizeinfo list stm32f429-ram.elf 
+Generate build reports...
+Converting build output to hex
+Output sent to: stm32f429-ram.hex
+Converting build output to hex done
+Print size information
+   text	   data	    bss	    dec	    hex	filename
+ 339180	   2088	   8744	 350012	  5573c	stm32f429-ram.elf
+Print size information done
+Generate listing file
+Output sent to: stm32f429-ram.list
+Generate listing file done
+Generate build reports done
+Info: Parallel threads used: 1
+11:46:54 **** Incremental Build of configuration Debug for project stm32f429-ram ****
+Info: Internal Builder is used for build
+arm-atollic-eabi-g++ -c ..\Src\PAW_Figure.cpp -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -std=gnu++11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32F429xx -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\stm32f429-ram\Inc -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\stm32f429-ram\Drivers\STM32F4xx_HAL_Driver\Inc -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\stm32f429-ram\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\stm32f429-ram\Drivers\CMSIS\Device\ST\STM32F4xx\Include -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\stm32f429-ram\Drivers\CMSIS\Include -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\stm32f429-ram\Debug -O0 -ffunction-sections -fno-rtti -fno-exceptions -g3 -fstack-usage -Wall -fno-threadsafe-statics -o Src\PAW_Figure.o 
+arm-atollic-eabi-g++ -o stm32f429-ram.elf Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma2d.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dsi.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_ltdc.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_ltdc_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_sdram.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_fmc.o Src\Exception.o Src\PAW_3D_Projection.o Src\PAW_Circle.o Src\PAW_Color.o Src\PAW_Figure.o Src\PAW_Interface.o Src\PAW_Line.o Src\PAW_Math.o Src\PAW_Matrix.o Src\PAW_Point.o Src\PAW_Primitive.o Src\PAW_Scene.o Src\PAW_Vector.o Src\figures.o Src\ili9341.o Src\main.o Src\stm32f429i_discovery.o Src\stm32f429i_discovery_eeprom.o Src\stm32f429i_discovery_lcd.o Src\stm32f429i_discovery_sdram.o Src\stm32f4xx_hal_msp.o Src\stm32f4xx_it.o Src\system_stm32f4xx.o startup\startup_stm32f429xx.o -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -T../STM32F429ZITx_FLASH.ld -specs=nosys.specs -static -Wl,-cref,-u,Reset_Handler -Wl,-Map=stm32f429-ram.map -Wl,--gc-sections -Wl,--defsym=malloc_getpagesize_P=0x1000 -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group 
+C:\Program Files (x86)\Atollic\TrueSTUDIO for STM32 9.0.0\ide\jre\bin\java -jar C:\Program Files (x86)\Atollic\TrueSTUDIO for STM32 9.0.0\Tools\arm-atollic-reports.jar convert hex sizeinfo list stm32f429-ram.elf 
+Generate build reports...
+Converting build output to hex
+Output sent to: stm32f429-ram.hex
+Converting build output to hex done
+Print size information
+   text	   data	    bss	    dec	    hex	filename
+ 339180	   2088	   8744	 350012	  5573c	stm32f429-ram.elf
+Print size information done
+Generate listing file
+Output sent to: stm32f429-ram.list
+Generate listing file done
+Generate build reports done
+Info: Parallel threads used: 1
+11:47:41 **** Incremental Build of configuration Debug for project stm32f429-ram ****
+Info: Internal Builder is used for build
+arm-atollic-eabi-g++ -c ..\Src\PAW_Figure.cpp -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -std=gnu++11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32F429xx -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\stm32f429-ram\Inc -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\stm32f429-ram\Drivers\STM32F4xx_HAL_Driver\Inc -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\stm32f429-ram\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\stm32f429-ram\Drivers\CMSIS\Device\ST\STM32F4xx\Include -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\stm32f429-ram\Drivers\CMSIS\Include -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\stm32f429-ram\Debug -O0 -ffunction-sections -fno-rtti -fno-exceptions -g3 -fstack-usage -Wall -fno-threadsafe-statics -o Src\PAW_Figure.o 
+arm-atollic-eabi-g++ -o stm32f429-ram.elf Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma2d.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dsi.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_ltdc.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_ltdc_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_sdram.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_fmc.o Src\Exception.o Src\PAW_3D_Projection.o Src\PAW_Circle.o Src\PAW_Color.o Src\PAW_Figure.o Src\PAW_Interface.o Src\PAW_Line.o Src\PAW_Math.o Src\PAW_Matrix.o Src\PAW_Point.o Src\PAW_Primitive.o Src\PAW_Scene.o Src\PAW_Vector.o Src\figures.o Src\ili9341.o Src\main.o Src\stm32f429i_discovery.o Src\stm32f429i_discovery_eeprom.o Src\stm32f429i_discovery_lcd.o Src\stm32f429i_discovery_sdram.o Src\stm32f4xx_hal_msp.o Src\stm32f4xx_it.o Src\system_stm32f4xx.o startup\startup_stm32f429xx.o -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -T../STM32F429ZITx_FLASH.ld -specs=nosys.specs -static -Wl,-cref,-u,Reset_Handler -Wl,-Map=stm32f429-ram.map -Wl,--gc-sections -Wl,--defsym=malloc_getpagesize_P=0x1000 -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group 
+C:\Program Files (x86)\Atollic\TrueSTUDIO for STM32 9.0.0\ide\jre\bin\java -jar C:\Program Files (x86)\Atollic\TrueSTUDIO for STM32 9.0.0\Tools\arm-atollic-reports.jar convert hex sizeinfo list stm32f429-ram.elf 
+Generate build reports...
+Converting build output to hex
+Output sent to: stm32f429-ram.hex
+Converting build output to hex done
+Print size information
+   text	   data	    bss	    dec	    hex	filename
+ 339180	   2088	   8744	 350012	  5573c	stm32f429-ram.elf
+Print size information done
+Generate listing file
+Output sent to: stm32f429-ram.list
+Generate listing file done
+Generate build reports done
+Info: Parallel threads used: 1
+11:48:55 **** Incremental Build of configuration Debug for project stm32f429-ram ****
+Info: Internal Builder is used for build
+arm-atollic-eabi-g++ -c ..\Src\PAW_Figure.cpp -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -std=gnu++11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32F429xx -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\stm32f429-ram\Inc -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\stm32f429-ram\Drivers\STM32F4xx_HAL_Driver\Inc -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\stm32f429-ram\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\stm32f429-ram\Drivers\CMSIS\Device\ST\STM32F4xx\Include -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\stm32f429-ram\Drivers\CMSIS\Include -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\stm32f429-ram\Debug -O0 -ffunction-sections -fno-rtti -fno-exceptions -g3 -fstack-usage -Wall -fno-threadsafe-statics -o Src\PAW_Figure.o 
+arm-atollic-eabi-g++ -o stm32f429-ram.elf Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma2d.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dsi.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_ltdc.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_ltdc_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_sdram.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_fmc.o Src\Exception.o Src\PAW_3D_Projection.o Src\PAW_Circle.o Src\PAW_Color.o Src\PAW_Figure.o Src\PAW_Interface.o Src\PAW_Line.o Src\PAW_Math.o Src\PAW_Matrix.o Src\PAW_Point.o Src\PAW_Primitive.o Src\PAW_Scene.o Src\PAW_Vector.o Src\figures.o Src\ili9341.o Src\main.o Src\stm32f429i_discovery.o Src\stm32f429i_discovery_eeprom.o Src\stm32f429i_discovery_lcd.o Src\stm32f429i_discovery_sdram.o Src\stm32f4xx_hal_msp.o Src\stm32f4xx_it.o Src\system_stm32f4xx.o startup\startup_stm32f429xx.o -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -T../STM32F429ZITx_FLASH.ld -specs=nosys.specs -static -Wl,-cref,-u,Reset_Handler -Wl,-Map=stm32f429-ram.map -Wl,--gc-sections -Wl,--defsym=malloc_getpagesize_P=0x1000 -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group 
+C:\Program Files (x86)\Atollic\TrueSTUDIO for STM32 9.0.0\ide\jre\bin\java -jar C:\Program Files (x86)\Atollic\TrueSTUDIO for STM32 9.0.0\Tools\arm-atollic-reports.jar convert hex sizeinfo list stm32f429-ram.elf 
+Generate build reports...
+Converting build output to hex
+Output sent to: stm32f429-ram.hex
+Converting build output to hex done
+Print size information
+   text	   data	    bss	    dec	    hex	filename
+ 339548	   2088	   8744	 350380	  558ac	stm32f429-ram.elf
+Print size information done
+Generate listing file
+Output sent to: stm32f429-ram.list
+Generate listing file done
+Generate build reports done
+Info: Parallel threads used: 1
+11:51:09 **** Incremental Build of configuration Debug for project stm32f429-ram ****
+Info: Internal Builder is used for build
+Info: Parallel threads used: 0
+11:51:11 **** Incremental Build of configuration Debug for project stm32f429-ram ****
+Info: Internal Builder is used for build
+Info: Parallel threads used: 0
+11:51:14 **** Incremental Build of configuration Debug for project stm32f429-ram ****
+Info: Internal Builder is used for build
+Info: Parallel threads used: 0
+11:54:26 **** Incremental Build of configuration Debug for project stm32f429-ram ****
+Info: Internal Builder is used for build
+arm-atollic-eabi-g++ -c ..\Src\PAW_Figure.cpp -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -std=gnu++11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32F429xx -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\stm32f429-ram\Inc -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\stm32f429-ram\Drivers\STM32F4xx_HAL_Driver\Inc -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\stm32f429-ram\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\stm32f429-ram\Drivers\CMSIS\Device\ST\STM32F4xx\Include -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\stm32f429-ram\Drivers\CMSIS\Include -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\stm32f429-ram\Debug -O0 -ffunction-sections -fno-rtti -fno-exceptions -g3 -fstack-usage -Wall -fno-threadsafe-statics -o Src\PAW_Figure.o 
+arm-atollic-eabi-g++ -o stm32f429-ram.elf Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma2d.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dsi.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_ltdc.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_ltdc_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_sdram.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_fmc.o Src\Exception.o Src\PAW_3D_Projection.o Src\PAW_Circle.o Src\PAW_Color.o Src\PAW_Figure.o Src\PAW_Interface.o Src\PAW_Line.o Src\PAW_Math.o Src\PAW_Matrix.o Src\PAW_Point.o Src\PAW_Primitive.o Src\PAW_Scene.o Src\PAW_Vector.o Src\figures.o Src\ili9341.o Src\main.o Src\stm32f429i_discovery.o Src\stm32f429i_discovery_eeprom.o Src\stm32f429i_discovery_lcd.o Src\stm32f429i_discovery_sdram.o Src\stm32f4xx_hal_msp.o Src\stm32f4xx_it.o Src\system_stm32f4xx.o startup\startup_stm32f429xx.o -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -T../STM32F429ZITx_FLASH.ld -specs=nosys.specs -static -Wl,-cref,-u,Reset_Handler -Wl,-Map=stm32f429-ram.map -Wl,--gc-sections -Wl,--defsym=malloc_getpagesize_P=0x1000 -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group 
+C:\Program Files (x86)\Atollic\TrueSTUDIO for STM32 9.0.0\ide\jre\bin\java -jar C:\Program Files (x86)\Atollic\TrueSTUDIO for STM32 9.0.0\Tools\arm-atollic-reports.jar convert hex sizeinfo list stm32f429-ram.elf 
+Generate build reports...
+Converting build output to hex
+Output sent to: stm32f429-ram.hex
+Converting build output to hex done
+Print size information
+   text	   data	    bss	    dec	    hex	filename
+ 339572	   2088	   8744	 350404	  558c4	stm32f429-ram.elf
+Print size information done
+Generate listing file
+Output sent to: stm32f429-ram.list
+Generate listing file done
+Generate build reports done
+Info: Parallel threads used: 1
+11:55:03 **** Incremental Build of configuration Debug for project stm32f429-ram ****
+Info: Internal Builder is used for build
+arm-atollic-eabi-g++ -c ..\Src\PAW_Figure.cpp -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -std=gnu++11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32F429xx -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\stm32f429-ram\Inc -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\stm32f429-ram\Drivers\STM32F4xx_HAL_Driver\Inc -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\stm32f429-ram\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\stm32f429-ram\Drivers\CMSIS\Device\ST\STM32F4xx\Include -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\stm32f429-ram\Drivers\CMSIS\Include -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\stm32f429-ram\Debug -O0 -ffunction-sections -fno-rtti -fno-exceptions -g3 -fstack-usage -Wall -fno-threadsafe-statics -o Src\PAW_Figure.o 
+arm-atollic-eabi-g++ -o stm32f429-ram.elf Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma2d.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dsi.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_ltdc.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_ltdc_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_sdram.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_fmc.o Src\Exception.o Src\PAW_3D_Projection.o Src\PAW_Circle.o Src\PAW_Color.o Src\PAW_Figure.o Src\PAW_Interface.o Src\PAW_Line.o Src\PAW_Math.o Src\PAW_Matrix.o Src\PAW_Point.o Src\PAW_Primitive.o Src\PAW_Scene.o Src\PAW_Vector.o Src\figures.o Src\ili9341.o Src\main.o Src\stm32f429i_discovery.o Src\stm32f429i_discovery_eeprom.o Src\stm32f429i_discovery_lcd.o Src\stm32f429i_discovery_sdram.o Src\stm32f4xx_hal_msp.o Src\stm32f4xx_it.o Src\system_stm32f4xx.o startup\startup_stm32f429xx.o -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -T../STM32F429ZITx_FLASH.ld -specs=nosys.specs -static -Wl,-cref,-u,Reset_Handler -Wl,-Map=stm32f429-ram.map -Wl,--gc-sections -Wl,--defsym=malloc_getpagesize_P=0x1000 -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group 
+C:\Program Files (x86)\Atollic\TrueSTUDIO for STM32 9.0.0\ide\jre\bin\java -jar C:\Program Files (x86)\Atollic\TrueSTUDIO for STM32 9.0.0\Tools\arm-atollic-reports.jar convert hex sizeinfo list stm32f429-ram.elf 
+Generate build reports...
+Converting build output to hex
+Output sent to: stm32f429-ram.hex
+Converting build output to hex done
+Print size information
+   text	   data	    bss	    dec	    hex	filename
+ 339596	   2088	   8744	 350428	  558dc	stm32f429-ram.elf
+Print size information done
+Generate listing file
+Output sent to: stm32f429-ram.list
+Generate listing file done
+Generate build reports done
+Info: Parallel threads used: 1
+11:56:00 **** Incremental Build of configuration Debug for project stm32f429-ram ****
+Info: Internal Builder is used for build
+arm-atollic-eabi-g++ -c ..\Src\PAW_Figure.cpp -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -std=gnu++11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32F429xx -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\stm32f429-ram\Inc -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\stm32f429-ram\Drivers\STM32F4xx_HAL_Driver\Inc -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\stm32f429-ram\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\stm32f429-ram\Drivers\CMSIS\Device\ST\STM32F4xx\Include -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\stm32f429-ram\Drivers\CMSIS\Include -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\stm32f429-ram\Debug -O0 -ffunction-sections -fno-rtti -fno-exceptions -g3 -fstack-usage -Wall -fno-threadsafe-statics -o Src\PAW_Figure.o 
+arm-atollic-eabi-g++ -o stm32f429-ram.elf Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma2d.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dsi.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_ltdc.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_ltdc_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_sdram.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_fmc.o Src\Exception.o Src\PAW_3D_Projection.o Src\PAW_Circle.o Src\PAW_Color.o Src\PAW_Figure.o Src\PAW_Interface.o Src\PAW_Line.o Src\PAW_Math.o Src\PAW_Matrix.o Src\PAW_Point.o Src\PAW_Primitive.o Src\PAW_Scene.o Src\PAW_Vector.o Src\figures.o Src\ili9341.o Src\main.o Src\stm32f429i_discovery.o Src\stm32f429i_discovery_eeprom.o Src\stm32f429i_discovery_lcd.o Src\stm32f429i_discovery_sdram.o Src\stm32f4xx_hal_msp.o Src\stm32f4xx_it.o Src\system_stm32f4xx.o startup\startup_stm32f429xx.o -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -T../STM32F429ZITx_FLASH.ld -specs=nosys.specs -static -Wl,-cref,-u,Reset_Handler -Wl,-Map=stm32f429-ram.map -Wl,--gc-sections -Wl,--defsym=malloc_getpagesize_P=0x1000 -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group 
+C:\Program Files (x86)\Atollic\TrueSTUDIO for STM32 9.0.0\ide\jre\bin\java -jar C:\Program Files (x86)\Atollic\TrueSTUDIO for STM32 9.0.0\Tools\arm-atollic-reports.jar convert hex sizeinfo list stm32f429-ram.elf 
+Generate build reports...
+Converting build output to hex
+Output sent to: stm32f429-ram.hex
+Converting build output to hex done
+Print size information
+   text	   data	    bss	    dec	    hex	filename
+ 339596	   2088	   8744	 350428	  558dc	stm32f429-ram.elf
+Print size information done
+Generate listing file
+Output sent to: stm32f429-ram.list
+Generate listing file done
+Generate build reports done
+Info: Parallel threads used: 1
+11:57:28 **** Incremental Build of configuration Debug for project stm32f429-ram ****
+Info: Internal Builder is used for build
+arm-atollic-eabi-g++ -c ..\Src\main.cpp -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -std=gnu++11 -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32F429xx -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\stm32f429-ram\Inc -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\stm32f429-ram\Drivers\STM32F4xx_HAL_Driver\Inc -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\stm32f429-ram\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\stm32f429-ram\Drivers\CMSIS\Device\ST\STM32F4xx\Include -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\stm32f429-ram\Drivers\CMSIS\Include -IC:\Users\bombe\Documents\SR\SR_GIT\main-repo\stm32f429-ram\Debug -O0 -ffunction-sections -fno-rtti -fno-exceptions -g3 -fstack-usage -Wall -fno-threadsafe-statics -o Src\main.o 
+arm-atollic-eabi-g++ -o stm32f429-ram.elf Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma2d.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dsi.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_i2c_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_ltdc.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_ltdc_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_sdram.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_spi.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.o Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_fmc.o Src\Exception.o Src\PAW_3D_Projection.o Src\PAW_Circle.o Src\PAW_Color.o Src\PAW_Figure.o Src\PAW_Interface.o Src\PAW_Line.o Src\PAW_Math.o Src\PAW_Matrix.o Src\PAW_Point.o Src\PAW_Primitive.o Src\PAW_Scene.o Src\PAW_Vector.o Src\figures.o Src\ili9341.o Src\main.o Src\stm32f429i_discovery.o Src\stm32f429i_discovery_eeprom.o Src\stm32f429i_discovery_lcd.o Src\stm32f429i_discovery_sdram.o Src\stm32f4xx_hal_msp.o Src\stm32f4xx_it.o Src\system_stm32f4xx.o startup\startup_stm32f429xx.o -mthumb -mcpu=cortex-m4 -mfloat-abi=hard -mfpu=fpv4-sp-d16 -T../STM32F429ZITx_FLASH.ld -specs=nosys.specs -static -Wl,-cref,-u,Reset_Handler -Wl,-Map=stm32f429-ram.map -Wl,--gc-sections -Wl,--defsym=malloc_getpagesize_P=0x1000 -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group 
+C:\Program Files (x86)\Atollic\TrueSTUDIO for STM32 9.0.0\ide\jre\bin\java -jar C:\Program Files (x86)\Atollic\TrueSTUDIO for STM32 9.0.0\Tools\arm-atollic-reports.jar convert hex sizeinfo list stm32f429-ram.elf 
+Generate build reports...
+Converting build output to hex
+Output sent to: stm32f429-ram.hex
+Converting build output to hex done
+Print size information
+   text	   data	    bss	    dec	    hex	filename
+ 334564	   2088	   8744	 345396	  54534	stm32f429-ram.elf
+Print size information done
+Generate listing file
+Output sent to: stm32f429-ram.list
+Generate listing file done
+Generate build reports done
+Info: Parallel threads used: 1

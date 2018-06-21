@@ -286,27 +286,12 @@ int main(void)
 		scenka.g_figs().clear();
 
 
-		figurka.toPyramid(35.0f,black);
-		figurka.scale3D(1.5f);
-		figurka.rotate3D(static_cast<float>(i),static_cast<float>(i),static_cast<float>(i));
-		figurka.project3D_to_2D();
-		figurka.translate(PAW_Vector(60.0f,200.0f,60.0f,1.0f));
-		scenka.push(figurka);
-
-
-		experyment.toExperimental(35.0f,black);
+		experyment.toExperimental(50.0f,black);
 		experyment.scale3D(1.5f);
 		experyment.rotate3D(static_cast<float>(i),static_cast<float>(i),static_cast<float>(i));
 		experyment.project3D_to_2D();
-		experyment.translate(PAW_Vector(120.0f,100.0f,60.0f,1.0f));
+		experyment.translate(PAW_Vector(120.0f,120.0f,60.0f,1.0f));
 		scenka.push(experyment);
-
-		trzecia.toCube(35.0f,black);
-		trzecia.scale3D(1.5f);
-		trzecia.rotate3D(static_cast<float>(i),static_cast<float>(i),static_cast<float>(i));
-		trzecia.project3D_to_2D();
-		trzecia.translate(PAW_Vector(150.0f,200.0f,60.0f,1.0f));
-		scenka.push(trzecia);
 
 		scenka.display();
 		i+=5;

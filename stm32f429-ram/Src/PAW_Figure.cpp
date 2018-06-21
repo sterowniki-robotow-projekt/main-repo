@@ -287,23 +287,33 @@ void PAW_Figure::toCube(const float a_length, const PAW_Color a_color)
 	PAW_Line L2(P2, P4, a_color);
 	PAW_Line L3(P3, P4, a_color);
 	PAW_Line L4(P3, P1, a_color);
+	PAW_Line L5(P1, P5, a_color);
+	PAW_Line L6(P5, P7, a_color);
+	PAW_Line L7(P7, P3, a_color);
+	PAW_Line L8(P7, P8, a_color);
+	PAW_Line L9(P5, P6, a_color);
+	PAW_Line L10(P6, P8, a_color);
+	PAW_Line L11(P8, P4, a_color);
+	PAW_Line L12(P6, P2, a_color);
 
-	PAW_Color side_color(255,85,255,51);
-	paint(L1,L3,side_color);
+	PAW_Color green(255,85,255,51);
+	PAW_Color purple(255,200,43,199);
+
+	paint(L1,L3,green);
+	paint(L10,L6,purple);
 
 	push(L1);
 	push(L2);
 	push(L3);
 	push(L4);
-
-	push(PAW_Line(P1, P5, a_color));
-	push(PAW_Line(P5, P7, a_color));
-	push(PAW_Line(P7, P3, a_color));
-	push(PAW_Line(P7, P8, a_color));
-	push(PAW_Line(P5, P6, a_color));
-	push(PAW_Line(P6, P8, a_color));
-	push(PAW_Line(P8, P4, a_color));
-	push(PAW_Line(P6, P2, a_color));
+	push(L5);
+	push(L6);
+	push(L7);
+	push(L8);
+	push(L9);
+	push(L10);
+	push(L11);
+	push(L12);
 
 
 
@@ -347,24 +357,36 @@ void PAW_Figure::toExperimental(const float a_length, const PAW_Color a_color)
 	PAW_Line L1(P1, P2, a_color);
 	PAW_Line L2(P2, P4, a_color);
 	PAW_Line L3(P3, P4, a_color);
-	PAW_Line L4(P1, P3, a_color);
+	PAW_Line L4(P3, P1, a_color);
+	PAW_Line L5(P1, P5, a_color);
+	PAW_Line L6(P5, P7, a_color);
+	PAW_Line L7(P7, P3, a_color);
+	PAW_Line L8(P7, P8, a_color);
+	PAW_Line L9(P5, P6, a_color);
+	PAW_Line L10(P6, P8, a_color);
+	PAW_Line L11(P8, P4, a_color);
+	PAW_Line L12(P6, P2, a_color);
 
-	PAW_Color side_color(255,15,20,200);
-	paint(L1,L4,side_color);
+	PAW_Color green(255,85,255,51);
+	PAW_Color purple(255,200,43,199);
+	PAW_Color yellow(255,199,255,0);
+
+	paint(L1,L3,green);
+	paint(L10,L6,purple);
+	paint(L11,L12,yellow);
 
 	push(L1);
 	push(L2);
 	push(L3);
 	push(L4);
-
-	push(PAW_Line(P1, P5, a_color));
-	push(PAW_Line(P5, P7, a_color));
-	push(PAW_Line(P7, P3, a_color));
-	push(PAW_Line(P7, P8, a_color));
-	push(PAW_Line(P5, P6, a_color));
-	push(PAW_Line(P6, P8, a_color));
-	push(PAW_Line(P8, P4, a_color));
-	push(PAW_Line(P6, P2, a_color));
+	push(L5);
+	push(L6);
+	push(L7);
+	push(L8);
+	push(L9);
+	push(L10);
+	push(L11);
+	push(L12);
 
 
 }
@@ -429,8 +451,6 @@ void PAW_Figure::paint(const PAW_Line& line1, const PAW_Line& line2, const PAW_C
 
 	 // jesli rozne dlugosci - nic sie nie dzieje
 	if ((length1 == length2)&&(length1 != 0.0f)) {
-
-
 		for(int i = 0; i < density*loopint; i++) {
 
 			vec_ptr1 = new PAW_Vector(cx1,cy1,cz1,1.0f);
